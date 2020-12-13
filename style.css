@@ -15,9 +15,8 @@ nav {
     left: -250px;
     top: 0;
     bottom: 0;
-    padding: 15px 5px 50px 5px;
     transition: left .5s ease-in .5s;
-    border: 1px solid white;
+    border: 1px solid black;
     background-color: white;
 }
 nav:after {
@@ -45,4 +44,28 @@ nav:hover:after {
 nav:hover ~ div#map {
     left: 300px;
     transition: left .5s ease-in 0s;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+nav li {
+    min-height: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+nav li:after {
+    content: "\f054";
+    font-family: "FontAwesome";
+    color: black;
+    display: block;
+    position: relative;
+    left: -20px;
+    bottom: 17px;
+}
+nav li:hover {
+    background-color: rgb(120, 23, 31);
+    color: white;
+    cursor: pointer;
 }
