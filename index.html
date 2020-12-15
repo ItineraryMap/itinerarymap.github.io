@@ -22,11 +22,8 @@
                 id: "map",
                 prefixUrl: "openseadragon/images/",
                 preserveImageSizeOnResize: true,
-                tileSources: {
-                    type: "image",
-                    url:  "resources/theatrum_orbis_terrarum.png",
-                    buildPyramid: false
-                }
+                minPixelRatio: 1,
+                tileSources: "resources/theatrum_orbis_terrarum.dzi"
             });
         </script>
     </body>
