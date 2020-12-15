@@ -6,15 +6,61 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <title>Itinerary Map</title>
     </head>
+
     <body>
         <nav>
-            <ul>
-                <li>Daten</li>
-                <li>Karte</li>
-                <li>Quellen</li>
-                <li>Impressum</li>
+            <ul class="navlist">
+                <input type="checkbox" id="daten" class="lichecker">
+                <label for="daten"><li class="navsection">Daten</li></label>
+                <label class="navtext">
+                    <input type="checkbox" id="toggle-infobox" checked>Infobox ein/aus</button><br>
+                    <select name="figure">
+                        <option value="test">Test</option>
+                    </select><br>
+                </label>
+
+                <input type="checkbox" id="karte" class="lichecker">
+                <label for="karte"><li class="navsection">Karte</li></label>
+                <label class="navtext">
+                    <input type="checkbox" id="toggle-country-names" checked>Ländernamen ein/aus</button><br>
+                    <input type="checkbox" id="toggle-city-markers" checked>Städtemarker ein/aus</button><br>
+                    <input type="checkbox" id="toggle-waypoints" checked>Wegpunkte ein/aus</button><br>
+                </label>
+
+                <input type="checkbox" id="quellen" class="lichecker">
+                <label for="quellen"><li class="navsection">Quellen</li></label>
+                <label class="navtext">
+                    <h4>Software-Libraries</h4>
+                    <ul class="sourcelist">
+                        <li><a href="http://openseadragon.github.io/">OpenSeadragon</a></li>
+                    </ul>
+                    <h4>Medien</h4>
+                    <ul class="sourcelist">
+                        <li><a href="https://de.wikipedia.org/wiki/Datei:1572_Europa_Ortelius.jpg">Wikipedia.org - Abraham Ortelius: Theatrum Orbis Terrarum, Europakarte (1572)</a></li>
+                        <li><a href="http://wappenwiki.org/">WappenWiki.org - Wegpunkt-Marker</a> <div class="tooltip">
+                            [Info]
+                            <span class="tooltiptext">
+                                Wappen werden ausschließlich zur Illustration und Unterscheidbarkeit der Wegpunkte benutzt. 
+                                Sie müssen nicht oder nicht zum jeweiligen Zeitpunkt von der jeweiligen Person geführt worden sein.
+                            </span>
+                        </div></li>
+                    </ul>
+                    <h4>Literatur und Sachquellen</h4>
+                    <ul class="sourcelist">
+                        <li>Platzhalter</li>
+                    </ul>
+                </label>
+
+                <input type="checkbox" id="impressum" class="lichecker">
+                <label for="impressum"><li class="navsection">Impressum</li></label>
+                <label class="navtext">
+                    © 2020 Daniel Saukel<br>
+                    Haus-Kleve-Weg 2, 48155 Münster<br>
+                    t_sauk01@uni-muenster.de
+                </label>
             </ul>
         </nav>
+
         <div id="map"></div>
         <script src="openseadragon/openseadragon.min.js"></script>
         <script type="text/javascript">
