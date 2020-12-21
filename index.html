@@ -10,25 +10,18 @@
     <body>
         <nav>
             <ul class="navlist">
-                <input type="checkbox" id="daten" class="lichecker">
-                <label for="daten"><li class="navsection">Daten</li></label>
+                <input type="checkbox" id="settings" class="lichecker">
+                <label for="settings"><li class="navsection">Einstellungen</li></label>
                 <label class="navtext">
-                    <input type="checkbox" id="toggle-infobox" checked>Infobox ein/aus</button><br>
-                    <select name="figure">
-                        <option value="test">Test</option>
-                    </select><br>
+                    <input type="checkbox" id="toggle-country-names" checked>Ländernamen</button><br>
+                    <input type="checkbox" id="toggle-city-markers" checked>Städtemarker</button><br>
+                    <input type="checkbox" id="toggle-infobox" checked>Infobox</button><br>
+                    <input type="checkbox" id="toggle-waypoints" checked>Wegpunkte</button><br>
+                    <select id="figure"></select><br>
                 </label>
 
-                <input type="checkbox" id="karte" class="lichecker">
-                <label for="karte"><li class="navsection">Karte</li></label>
-                <label class="navtext">
-                    <input type="checkbox" id="toggle-country-names" checked>Ländernamen ein/aus</button><br>
-                    <input type="checkbox" id="toggle-city-markers" checked>Städtemarker ein/aus</button><br>
-                    <input type="checkbox" id="toggle-waypoints" checked>Wegpunkte ein/aus</button><br>
-                </label>
-
-                <input type="checkbox" id="quellen" class="lichecker">
-                <label for="quellen"><li class="navsection">Quellen</li></label>
+                <input type="checkbox" id="sources" class="lichecker">
+                <label for="sources"><li class="navsection">Quellen</li></label>
                 <label class="navtext">
                     <h4>Software-Libraries</h4>
                     <ul class="sourcelist">
@@ -62,8 +55,35 @@
         </nav>
 
         <div id="map"></div>
+
+        <div id="infobox-overlay" class="window"></div>
+        <script src="figure.js" charset="utf-8"></script>
+        <script>
+            FIGURES[0].printToInfobox();
+
+            var selector = document.querySelector("#figure");
+            var options = "";
+            for (var i in FIGURES) {
+                options += "<option value='" + FIGURES[i].id + "'>" + FIGURES[i].listEntry + "</option>";
+            }
+            selector.innerHTML = options;
+            selector.addEventListener("change", function() {
+                var figure = getFigure(this.value);
+                if (figure != null) {
+                    figure.printToInfobox();
+                }
+            });
+            document.querySelector("#toggle-infobox").addEventListener("change", function() {
+                if (this.checked) {
+                    document.getElementById("infobox-overlay").style.visibility = "visible";
+                } else {
+                    document.getElementById("infobox-overlay").style.visibility = "hidden";
+                }
+            });
+        </script>
+
         <script src="openseadragon/openseadragon.min.js"></script>
-        <script type="text/javascript">
+        <script>
             var viewer = OpenSeadragon({
                 id: "map",
                 prefixUrl: "openseadragon/images/",

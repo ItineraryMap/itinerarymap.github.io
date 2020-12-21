@@ -81,7 +81,6 @@ nav h4 {
     font-weight: bold;
 }
 
-
 .lichecker {
     display: none;
 }
@@ -103,7 +102,7 @@ nav h4 {
 }
 .tooltip {
     position: relative;
-    display: inline-block;
+    display: inline;
     border-bottom: 1px dotted black;
 }
 .tooltip .tooltiptext {
@@ -119,4 +118,26 @@ nav h4 {
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.window {
+    position: absolute;
+    width: 420px;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .5);
+}
+.window h1 {
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+.window img {
+    width: 102px;
+    height: 119px;
+    float: right;
+}
+.window p.dynasty {
+    font-size: 10px;
+    text-align: center;
 }
