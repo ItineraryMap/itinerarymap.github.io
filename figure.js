@@ -17,7 +17,7 @@ class Figure {
 
     printToInfobox() {
         var box = document.getElementById("infobox-overlay");
-        var html = "<img src='http://wappenwiki.org/images/" + this.coatOfArms + ".svg'>";
+        var html = this.getCoatOfArmsImg();
         html += "<div class='tooltip'><a href='https://www.deutsche-biographie.de/" + this.db + ".html'><h1>" + this.name+ "</h1></a><span class='tooltiptext'>" + this.name + " in der Deutschen Biographie</span></div>";
         html += "<p class='dynasty'>Haus " + this.dynasty + "</p>";
         html += "<p><i>*" + this.dateOfBirth + " " + this.placeOfBirth + ", †" + this.dateOfDeath + " " + this.placeOfDeath + "</i></p>";
@@ -25,6 +25,18 @@ class Figure {
             html += this.titles[i] + "<br>";
         }
         box.innerHTML = html;
+    }
+
+    getCoatOfArmsImg() {
+        return "<img src='http://wappenwiki.org/images/" + this.coatOfArms + ".svg'>";
+    }
+
+    createWaypoint(id, x, y) {
+        var element = document.createElement("div");
+        element.id = "waypoint-" + id;
+        element.className = "waypoint";
+        element.innerHTML = this.getCoatOfArmsImg();
+        viewer.addOverlay(element, OpenSeadragon.Point(x, y), OpenSeadragon.Placement.CENTER);
     }
 
 }

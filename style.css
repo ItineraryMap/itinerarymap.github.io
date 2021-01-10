@@ -141,3 +141,12 @@ nav h4 {
     font-size: 10px;
     text-align: center;
 }
+
+.waypoint {
+    position: fixed;
+    cursor: pointer;
+}
+.waypoint img {
+    width: 25px;
+    height: 30px;
+}

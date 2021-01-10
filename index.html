@@ -47,7 +47,7 @@
                 <input type="checkbox" id="impressum" class="lichecker">
                 <label for="impressum"><li class="navsection">Impressum</li></label>
                 <label class="navtext">
-                    © 2020 Daniel Saukel<br>
+                    © 2020-2021 Daniel Saukel<br>
                     Haus-Kleve-Weg 2, 48155 Münster<br>
                     t_sauk01@uni-muenster.de
                 </label>
@@ -80,6 +80,17 @@
                     document.getElementById("infobox-overlay").style.visibility = "hidden";
                 }
             });
+            document.querySelector("#toggle-waypoints").addEventListener("change", function() {
+                if (this.checked) {
+                    for (e of document.getElementsByClassName("waypoint")) {
+                        e.style.visibility = "visible";
+                    }
+                } else {
+                    for (e of document.getElementsByClassName("waypoint")) {
+                        e.style.visibility = "hidden";
+                    }
+                }
+            });
         </script>
 
         <script src="openseadragon/openseadragon.min.js"></script>
@@ -91,6 +102,7 @@
                 minPixelRatio: 1,
                 tileSources: "resources/theatrum_orbis_terrarum.dzi"
             });
+            FIGURES[0].createWaypoint("test", .5, .5);
         </script>
     </body>
 </html>
