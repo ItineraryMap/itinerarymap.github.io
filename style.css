@@ -26,6 +26,7 @@ nav:after {
     font-style: normal;
     text-decoration: inherit;
     color: white;
+    background-color: black;
     position: absolute;
     left: 100%;
     top: -1px;
@@ -40,10 +41,6 @@ nav:hover {
 }
 nav:hover:after {
     content: "\f00d";
-}
-nav:hover ~ div#map {
-    left: 300px;
-    transition: left .5s ease-in 0s;
 }
 nav .navlist {
     list-style-type: none;
