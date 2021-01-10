@@ -17,6 +17,7 @@
                     <input type="checkbox" id="toggle-city-markers" checked>Städtemarker</button><br>
                     <input type="checkbox" id="toggle-infobox" checked>Infobox</button><br>
                     <input type="checkbox" id="toggle-waypoints" checked>Wegpunkte</button><br>
+                    <input type="checkbox" id="toggle-debug">Debug</button><br>
                     <select id="figure"></select><br>
                 </label>
 
@@ -57,6 +58,7 @@
         <div id="map"></div>
 
         <div id="infobox-overlay" class="window"></div>
+        <div id="debug-overlay" class="window">Web: <br>Viewport: <br>Image: </div>
         <script src="figure.js" charset="utf-8"></script>
         <script>
             FIGURES[0].printToInfobox();
@@ -91,6 +93,13 @@
                     }
                 }
             });
+            document.querySelector("#toggle-debug").addEventListener("change", function() {
+                if (this.checked) {
+                    document.getElementById("debug-overlay").style.visibility = "visible";
+                } else {
+                    document.getElementById("debug-overlay").style.visibility = "hidden";
+                }
+            });
         </script>
 
         <script src="openseadragon/openseadragon.min.js"></script>
@@ -101,6 +110,15 @@
                 preserveImageSizeOnResize: true,
                 minPixelRatio: 1,
                 tileSources: "resources/theatrum_orbis_terrarum.dzi"
+            });
+            viewer.addHandler('canvas-click', function(event) {
+                var webPoint = event.position;
+                var viewportPoint = viewer.viewport.pointFromPixel(webPoint);
+                var imagePoint = viewer.viewport.viewportToImageCoordinates(viewportPoint);
+                var window = document.getElementById("debug-overlay");
+                window.innerHTML = "Web: " + webPoint.toString();
+                window.innerHTML += "<br>Viewport: " + viewportPoint.toString();
+                window.innerHTML += "<br>Image: " + imagePoint.toString();
             });
             FIGURES[0].createWaypoint("test", .5, .5);
         </script>

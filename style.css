@@ -122,9 +122,6 @@ nav h4 {
 
 .window {
     position: absolute;
-    width: 420px;
-    top: 0;
-    right: 0;
     background-color: rgba(255, 255, 255, .5);
 }
 .window h1 {
@@ -132,14 +129,25 @@ nav h4 {
     margin-top: .5em;
     margin-bottom: 0;
 }
-.window img {
+div#infobox-overlay {
+    width: 420px;
+    top: 0;
+    right: 0;
+}
+div#infobox-overlay img {
     width: 102px;
     height: 119px;
     float: right;
 }
-.window p.dynasty {
+div#infobox-overlay p.dynasty {
     font-size: 10px;
     text-align: center;
+}
+div#debug-overlay {
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
 }
 
 .waypoint {
