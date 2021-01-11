@@ -36,7 +36,7 @@ class Figure {
         element.id = "waypoint-" + id;
         element.className = "waypoint";
         element.innerHTML = this.getCoatOfArmsImg();
-        viewer.addOverlay(element, OpenSeadragon.Point(x, y), OpenSeadragon.Placement.CENTER);
+        viewer.addOverlay(element, new OpenSeadragon.Point(x, y), OpenSeadragon.Placement.CENTER);
     }
 
 }

@@ -149,7 +149,6 @@ div#debug-overlay {
 }
 
 .waypoint {
-    position: fixed;
     cursor: pointer;
 }
 .waypoint img {
