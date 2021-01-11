@@ -28,7 +28,11 @@ class Figure {
     }
 
     getCoatOfArmsImg() {
-        return "<img src='http://wappenwiki.org/images/" + this.coatOfArms + ".svg'>";
+        return "<img src='resources/coa/" + this.id +".svg'>";
+    }
+
+    getCoatOfArmsSrc() {
+        return "http://wappenwiki.org/images/" + this.coatOfArms + ".svg";
     }
 
     createWaypoint(id, x, y) {
