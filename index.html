@@ -15,11 +15,11 @@
                 <input type="checkbox" id="settings" class="lichecker">
                 <label for="settings"><li class="navsection">Einstellungen</li></label>
                 <label class="navtext">
-                    <input type="checkbox" id="toggle-country-names" checked>Ländernamen</button><br>
-                    <input type="checkbox" id="toggle-city-markers" checked>Städtemarker</button><br>
-                    <input type="checkbox" id="toggle-infobox" checked>Infobox</button><br>
-                    <input type="checkbox" id="toggle-waypoints" checked>Wegpunkte</button><br>
-                    <input type="checkbox" id="toggle-debug">Debug</button><br>
+                    <input type="checkbox" id="toggle-region-names" checked>Ländernamen<br>
+                    <input type="checkbox" id="toggle-city-markers" checked>Städtemarker<br>
+                    <input type="checkbox" id="toggle-infobox" checked>Infobox<br>
+                    <input type="checkbox" id="toggle-waypoints" checked>Wegpunkte<br>
+                    <input type="checkbox" id="toggle-debug">Debug<br>
                     <select id="figure"></select><br>
                 </label>
 
@@ -60,47 +60,8 @@
         <div id="infobox-overlay" class="window"></div>
         <div id="debug-overlay" class="window">Web: <br>Viewport: <br>Image: </div>
         <script src="figure.js" charset="utf-8"></script>
-        <script>
-            FIGURES[0].printToInfobox();
-
-            var selector = document.querySelector("#figure");
-            var options = "";
-            for (var i in FIGURES) {
-                options += "<option value='" + FIGURES[i].id + "'>" + FIGURES[i].listEntry + "</option>";
-            }
-            selector.innerHTML = options;
-            selector.addEventListener("change", function() {
-                var figure = getFigure(this.value);
-                if (figure != null) {
-                    figure.printToInfobox();
-                }
-            });
-            document.querySelector("#toggle-infobox").addEventListener("change", function() {
-                if (this.checked) {
-                    document.getElementById("infobox-overlay").style.visibility = "visible";
-                } else {
-                    document.getElementById("infobox-overlay").style.visibility = "hidden";
-                }
-            });
-            document.querySelector("#toggle-waypoints").addEventListener("change", function() {
-                if (this.checked) {
-                    for (e of document.getElementsByClassName("waypoint")) {
-                        e.style.visibility = "visible";
-                    }
-                } else {
-                    for (e of document.getElementsByClassName("waypoint")) {
-                        e.style.visibility = "hidden";
-                    }
-                }
-            });
-            document.querySelector("#toggle-debug").addEventListener("change", function() {
-                if (this.checked) {
-                    document.getElementById("debug-overlay").style.visibility = "visible";
-                } else {
-                    document.getElementById("debug-overlay").style.visibility = "hidden";
-                }
-            });
-        </script>
+        <script src="marker.js" charset="utf-8"></script>
+        <script src="gui.js"></script>
 
         <script src="openseadragon/openseadragon.min.js"></script>
         <script>
@@ -120,11 +81,14 @@
                 window.innerHTML += "<br>Viewport: " + viewportPoint.toString();
                 window.innerHTML += "<br>Image: " + imagePoint.toString();
             });
-            FIGURES[0].createWaypoint("test", .415, .39);
-            FIGURES[0].createWaypoint("test2", .4425, .385);
-            FIGURES[0].createWaypoint("test3", .422, .488);
-            FIGURES[0].createWaypoint("test4", .381, .398);
-            FIGURES[0].createWaypoint("test5", .378, .379);
+            new Waypoint(FIGURES[1], .415, .39).display();
+            new Region("Polarkreis", .1, .05).display();
+            new City("Atlantis", 0, .7, .05).display();
+            new Waypoint(FIGURES[0], .415, .39).display();
+            new Waypoint(FIGURES[0], .4425, .385).display();
+            new Waypoint(FIGURES[0], .422, .488).display();
+            new Waypoint(FIGURES[0], .381, .398).display();
+            new Waypoint(FIGURES[0], .378, .379).display();
         </script>
     </body>
 </html>

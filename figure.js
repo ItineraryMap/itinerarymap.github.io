@@ -1,10 +1,10 @@
 "use strict";
 class Figure {
 
-    constructor(listEntry, id, name, dynasty, dateOfBirth, placeOfBirth, dateOfDeath, placeOfDeath, titles, coatOfArms, db) {
-        this.listEntry = listEntry;
+    constructor(id, name, listEntry, dynasty, dateOfBirth, placeOfBirth, dateOfDeath, placeOfDeath, titles, coatOfArms, db) {
         this.id = id;
         this.name = name;
+        this.listEntry = listEntry;
         this.dynasty = dynasty;
         this.dateOfBirth = dateOfBirth;
         this.placeOfBirth = placeOfBirth;
@@ -35,20 +35,12 @@ class Figure {
         return "http://wappenwiki.org/images/" + this.coatOfArms + ".svg";
     }
 
-    createWaypoint(id, x, y) {
-        var element = document.createElement("div");
-        element.id = "waypoint-" + id;
-        element.className = "waypoint";
-        element.innerHTML = this.getCoatOfArmsImg();
-        viewer.addOverlay(element, new OpenSeadragon.Point(x, y), OpenSeadragon.Placement.CENTER);
-    }
-
 }
 
 const FIGURES = [
-    new Figure("Karl IV. (HRR)",
-        "karl4-hrr",
+    new Figure("karl4-hrr",
         "Karl IV.",
+        "Karl IV. (HRR)",
         "Luxemburg",
         "1316",
         "Prag",
@@ -59,9 +51,9 @@ const FIGURES = [
             "Markgraf von Brandenburg (1373)"],
         "e/ed/HRE_Luxembourg_Bohemia",
         "sfz70316"),
-    new Figure("Sigismund (HRR)",
-        "sigismund-hrr",
+    new Figure("sigismund-hrr",
         "Sigismund",
+        "Sigismund (HRR)",
         "Luxemburg",
         "1368",
         "Nürnberg",

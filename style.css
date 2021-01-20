@@ -107,7 +107,7 @@ nav h4 {
     visibility: hidden;
     width: 240px;
     background-color: black;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
@@ -154,4 +154,18 @@ div#debug-overlay {
 .waypoint img {
     width: 25px;
     height: 30px;
+}
+.waypoint .tooltiptext {
+    visibility: hidden;
+    width: 440px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.waypoint:hover .tooltiptext {
+    visibility: visible;
 }
