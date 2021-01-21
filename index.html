@@ -59,10 +59,10 @@
 
         <div id="infobox-overlay" class="window"></div>
         <div id="debug-overlay" class="window">Web: <br>Viewport: <br>Image: </div>
+
         <script src="figure.js" charset="utf-8"></script>
         <script src="marker.js" charset="utf-8"></script>
-        <script src="gui.js"></script>
-
+        <script src="gui.js" charset="utf-8"></script>
         <script src="openseadragon/openseadragon.min.js"></script>
         <script>
             var viewer = OpenSeadragon({
@@ -81,14 +81,7 @@
                 window.innerHTML += "<br>Viewport: " + viewportPoint.toString();
                 window.innerHTML += "<br>Image: " + imagePoint.toString();
             });
-            new Waypoint(FIGURES[1], .415, .39).display();
-            new Region("Polarkreis", .1, .05).display();
-            new City("Atlantis", 0, .7, .05).display();
-            new Waypoint(FIGURES[0], .415, .39).display();
-            new Waypoint(FIGURES[0], .4425, .385).display();
-            new Waypoint(FIGURES[0], .422, .488).display();
-            new Waypoint(FIGURES[0], .381, .398).display();
-            new Waypoint(FIGURES[0], .378, .379).display();
         </script>
+        <script src="data.js" charset="utf-8"></script>
     </body>
 </html>

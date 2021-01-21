@@ -52,7 +52,7 @@ class City extends Marker {
     }
 
     display() {
-        super.display().innerHTML = "<img src='resources/city_" + this.level + ".png'><br><span class='city'>" + this.name + "</span>";
+        super.display().innerHTML = "<img src='resources/city_" + this.level + ".png'>";//"<br><span class='city'>" + this.name + "</span>";
     }
 
 }

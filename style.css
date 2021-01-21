@@ -148,6 +148,17 @@ div#debug-overlay {
     visibility: hidden;
 }
 
+.city, .region {
+    cursor: default;
+    text-align: center;
+    line-height: 1em;
+    color: white;
+}
+.city img {
+    width: 16px;
+    height: 16px;
+}
+
 .waypoint {
     cursor: pointer;
 }
