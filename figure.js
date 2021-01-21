@@ -16,12 +16,12 @@ class Figure {
     }
 
     printToInfobox() {
-        var box = document.getElementById("infobox-overlay");
-        var html = this.getCoatOfArmsImg();
+        let box = document.getElementById("infobox-overlay");
+        let html = this.getCoatOfArmsImg();
         html += "<div class='tooltip'><a href='https://www.deutsche-biographie.de/" + this.db + ".html'><h1>" + this.name+ "</h1></a><span class='tooltiptext'>" + this.name + " in der Deutschen Biographie</span></div>";
         html += "<p class='dynasty'>Haus " + this.dynasty + "</p>";
         html += "<p><i>*" + this.dateOfBirth + " " + this.placeOfBirth + ", †" + this.dateOfDeath + " " + this.placeOfDeath + "</i></p>";
-        for (var i in this.titles) {
+        for (let i in this.titles) {
             html += this.titles[i] + "<br>";
         }
         box.innerHTML = html;

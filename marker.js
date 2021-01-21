@@ -8,7 +8,7 @@ class Marker {
     }
 
     display() {
-        var element = document.createElement("div");
+        let element = document.createElement("div");
         element.className = this.type;
         viewer.addOverlay(element, new OpenSeadragon.Point(this.x, this.y), OpenSeadragon.Placement.CENTER);
         return element;
@@ -24,7 +24,7 @@ class Waypoint extends Marker {
     }
 
     display() {
-        var element = super.display();
+        let element = super.display();
         element.innerHTML = this.figure.getCoatOfArmsImg() + "<span class='tooltiptext'>" + "Test" + "</span>";
     }
 
