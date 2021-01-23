@@ -103,16 +103,18 @@ nav h4 {
     display: inline;
     border-bottom: 1px dotted black;
 }
-.tooltip .tooltiptext {
+.tooltiptext {
     visibility: hidden;
-    width: 240px;
     background-color: black;
     color: white;
-    text-align: center;
     padding: 5px 0;
     border-radius: 6px;
     position: absolute;
     z-index: 1;
+}
+.tooltip .tooltiptext {
+    width: 240px;
+    text-align: center;
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -149,6 +151,7 @@ div#debug-overlay {
 }
 
 .city, .region {
+    position: relative;
     cursor: default;
     text-align: center;
     line-height: 1em;
@@ -157,6 +160,9 @@ div#debug-overlay {
 .city img {
     width: 16px;
     height: 16px;
+}
+.city:hover .tooltiptext {
+    visibility: visible;
 }
 
 .waypoint {
@@ -167,15 +173,8 @@ div#debug-overlay {
     height: 30px;
 }
 .waypoint .tooltiptext {
-    visibility: hidden;
     width: 440px;
-    background-color: black;
-    color: white;
     text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
 }
 .waypoint:hover .tooltiptext {
     visibility: visible;
