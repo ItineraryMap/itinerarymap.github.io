@@ -15,16 +15,24 @@ class Figure {
         this.db = db;
     }
 
-    printToInfobox() {
+    display() {
         let box = document.getElementById("infobox-overlay");
         let html = this.getCoatOfArmsImg();
         html += "<div class='tooltip'><a href='https://www.deutsche-biographie.de/" + this.db + ".html'><h1>" + this.name+ "</h1></a><span class='tooltiptext'>" + this.name + " in der Deutschen Biographie</span></div>";
         html += "<p class='dynasty'>Haus " + this.dynasty + "</p>";
         html += "<p><i>*" + this.dateOfBirth + " " + this.placeOfBirth + ", †" + this.dateOfDeath + " " + this.placeOfDeath + "</i></p>";
-        for (let i in this.titles) {
-            html += this.titles[i] + "<br>";
+        for (let t of this.titles) {
+            html += t + "<br>";
         }
         box.innerHTML = html;
+        if (this.waypoints == null) {
+            this.waypoints = new Set();
+            DATA.loadWaypoints(this);
+        } else {
+            for (let w of this.waypoints) {
+                w.display();
+            }
+        }
     }
 
     getCoatOfArmsImg() {

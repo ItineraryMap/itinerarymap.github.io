@@ -8,10 +8,10 @@ class Marker {
     }
 
     display() {
-        let element = document.createElement("div");
-        element.className = this.type;
-        viewer.addOverlay(element, new OpenSeadragon.Point(this.x, this.y), OpenSeadragon.Placement.CENTER);
-        return element;
+        this.element = document.createElement("div");
+        this.element.className = this.type;
+        viewer.addOverlay(this.element, new OpenSeadragon.Point(this.x, this.y), OpenSeadragon.Placement.CENTER);
+        return this.element;
     }
 
 }
@@ -24,8 +24,13 @@ class Waypoint extends Marker {
     }
 
     display() {
-        let element = super.display();
-        element.innerHTML = this.figure.getCoatOfArmsImg() + "<span class='tooltiptext'>" + "Test" + "</span>";
+        super.display();
+        this.element.innerHTML = this.figure.getCoatOfArmsImg() + "<span class='tooltiptext'>" + this.text + "</span>";
+    }
+
+    hide () {
+        viewer.removeOverlay(this.element);
+        this.element = null;
     }
 
 }
@@ -52,12 +57,12 @@ class City extends Marker {
     }
 
     display() {
-        let element = super.display();
-        element.innerHTML = "<img src='resources/city_" + this.level + ".png'>";
+        super.display();
+        this.element.innerHTML = "<img src='resources/city_" + this.level + ".png'>";
         if (this.level == 2) {
-            element.innerHTML += "<div style='position:absolute'>" + this.name + "</div>";
+            this.element.innerHTML += "<div style='position:absolute'>" + this.name + "</div>";
         } else {
-            element.innerHTML += "<span class='tooltiptext'>" + this.name + "</span>";
+            this.element.innerHTML += "<span class='tooltiptext'>" + this.name + "</span>";
         }
     }
 

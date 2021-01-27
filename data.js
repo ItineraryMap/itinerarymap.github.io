@@ -7,12 +7,26 @@ class DataManager {
     }
 
     getFigure(id) {
-        for (let i in this.figures) {
-            if (this.figures[i].id == id) {
-                return this.figures[i];
+        for (let f of this.figures) {
+            if (f.id == id) {
+                return f;
             }
         }
         return null;
+    }
+
+    getLoadedFigure() {
+        return this.loadedFigure;
+    }
+
+    setLoadedFigure(figure) {
+        if (this.loadedFigure != null) {
+            for (let w of this.loadedFigure.waypoints) {
+                w.hide();
+            }
+        }
+        this.loadedFigure = figure;
+        figure.display();
     }
 
     loadFigures() {
@@ -22,19 +36,18 @@ class DataManager {
                 let selector = document.querySelector("#figure");
                 let options = "";
                 DATA.figures = JSON.parse(this.responseText);
-                for (let i in DATA.figures) {
-                    Object.setPrototypeOf(DATA.figures[i], Figure.prototype);
-                    options += "<option value='" + DATA.figures[i].id + "'>" + DATA.figures[i].listEntry + "</option>";
+                for (let f of DATA.figures) {
+                    Object.setPrototypeOf(f, Figure.prototype);
+                    options += "<option value='" + f.id + "'>" + f.listEntry + "</option>";
                 }
                 selector.innerHTML = options;
                 selector.addEventListener("change", function() {
                     let figure = DATA.getFigure(this.value);
                     if (figure != null) {
-                         figure.printToInfobox();
+                        DATA.setLoadedFigure(figure);
                     }
                 });
-                DATA.figures[0].printToInfobox();
-                DATA.test();
+                DATA.setLoadedFigure(DATA.figures[0]);
             }
         };
         xmlhttp.open("GET", "resources/figures.json", true);
@@ -64,13 +77,21 @@ class DataManager {
         xmlhttp.send();
     }
 
-    test() {
-        new Waypoint(DATA.figures[1], .415, .39).display();
-        new Waypoint(DATA.figures[0], .415, .39).display();
-        new Waypoint(DATA.figures[0], .4425, .385).display();
-        new Waypoint(DATA.figures[0], .422, .488).display();
-        new Waypoint(DATA.figures[0], .381, .398).display();
-        new Waypoint(DATA.figures[0], .378, .379).display();
+    loadWaypoints(figure) {
+        let xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                figure.waypoints = JSON.parse(this.responseText);
+                for (let w of figure.waypoints) {
+                    Object.setPrototypeOf(w, Waypoint.prototype);
+                    w.type = "waypoint";
+                    w.figure = figure;
+                    w.display();
+                }
+            }
+        };
+        xmlhttp.open("GET", "resources/waypoints/" + figure.id + ".json", true);
+        xmlhttp.send();
     }
 
 }
