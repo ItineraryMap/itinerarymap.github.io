@@ -21,9 +21,7 @@ class DataManager {
 
     setLoadedFigure(figure) {
         if (this.loadedFigure != null) {
-            for (let w of this.loadedFigure.waypoints) {
-                w.hide();
-            }
+            this.loadedFigure.hide();
         }
         this.loadedFigure = figure;
         figure.display();
@@ -83,10 +81,21 @@ class DataManager {
             if (this.readyState == 4 && this.status == 200) {
                 figure.waypoints = JSON.parse(this.responseText);
                 for (let w of figure.waypoints) {
-                    Object.setPrototypeOf(w, Waypoint.prototype);
-                    w.type = "waypoint";
                     w.figure = figure;
-                    w.display();
+                    if (w.x == null || w.y == null) {
+                        for (let c of DATA.cities) {
+                            if (c.name == w.place) {
+                                w.x = c.x;
+                                w.y = c.y;
+                                break;
+                            }
+                        }
+                    }
+                    w.marker = figure.getOrCreateMarker(w.place, w.x, w.y);
+                    w.marker.addStay(w.date, w.comment);
+                }
+                for (let e of figure.markers) {
+                    e[1].display();
                 }
             }
         };

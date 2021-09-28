@@ -27,11 +27,18 @@ class Figure {
         box.innerHTML = html;
         if (this.waypoints == null) {
             this.waypoints = new Set();
+            this.markers = new Map();
             DATA.loadWaypoints(this);
         } else {
-            for (let w of this.waypoints) {
-                w.display();
+            for (let e of this.markers) {
+                e[1].display();
             }
+        }
+    }
+
+    hide() {
+        for (let e of this.markers) {
+            e[1].hide();
         }
     }
 
@@ -41,6 +48,15 @@ class Figure {
 
     getCoatOfArmsSrc() {
         return "http://wappenwiki.org/images/" + this.coatOfArms + ".svg";
+    }
+
+    getOrCreateMarker(place, x, y) {
+        if (this.markers.has(place)) {
+            return this.markers.get(place);
+        }
+        let marker = new Waypoint(this, place, x, y);
+        this.markers.set(place, marker);
+        return marker;
     }
 
 }

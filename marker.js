@@ -14,23 +14,34 @@ class Marker {
         return this.element;
     }
 
+    hide() {
+        viewer.removeOverlay(this.element);
+        this.element = null;
+    }
+
 }
 
 class Waypoint extends Marker {
 
-    constructor(figure, x, y) {
+    constructor(figure, place, x, y) {
         super("waypoint", x, y);
         this.figure = figure;
+        this.text = "<b>" + place + "</b>";
+    }
+
+    addStay(date, comment) {
+        this.text += "<br>" + date[0];
+        if (date.length > 1) {
+            this.text += " bis " + date[1];
+        }
+        if (comment != null) {
+            this.text += "<br><i>" + comment + "</i>";
+        }
     }
 
     display() {
         super.display();
         this.element.innerHTML = this.figure.getCoatOfArmsImg() + "<span class='tooltiptext'>" + this.text + "</span>";
-    }
-
-    hide () {
-        viewer.removeOverlay(this.element);
-        this.element = null;
     }
 
 }
