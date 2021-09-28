@@ -156,6 +156,7 @@ div#debug-overlay {
     text-align: center;
     line-height: 1em;
     color: white;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
 }
 .city img {
     width: 16px;

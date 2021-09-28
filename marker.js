@@ -59,11 +59,7 @@ class City extends Marker {
     display() {
         super.display();
         this.element.innerHTML = "<img src='resources/city_" + this.level + ".png'>";
-        if (this.level == 2) {
-            this.element.innerHTML += "<div style='position:absolute'>" + this.name + "</div>";
-        } else {
-            this.element.innerHTML += "<span class='tooltiptext'>" + this.name + "</span>";
-        }
+        this.element.innerHTML += "<span class='tooltiptext'>" + this.name + "</span>";
     }
 
 }
