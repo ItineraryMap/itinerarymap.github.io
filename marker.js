@@ -26,10 +26,29 @@ class Waypoint extends Marker {
     constructor(figure, place, x, y) {
         super("waypoint", x, y);
         this.figure = figure;
+        this.place = place;
         this.text = "<b>" + place + "</b>";
+        this.statsAdded = false;
     }
 
     addStay(date, comment) {
+        if (this.stays == null) {
+            this.stays = 1;
+        } else {
+            this.stays++;
+        }
+
+        if (this.days == null) {
+            this.days = 0;
+        }
+        if (date.length == 1) {
+            this.days++;
+            return;
+        }
+        let date1 = new Date(date[0]);
+        let date2 = new Date(date[1]);
+        this.days += (date2.getTime() - date1.getTime()) / (1000 * 60 * 60 * 24);
+
         this.text += "<br>" + date[0];
         if (date.length > 1) {
             this.text += " bis " + date[1];
@@ -40,8 +59,46 @@ class Waypoint extends Marker {
     }
 
     display() {
+        let city = DATA.getCity(this.place);
+        if (city != null) {
+            city.hide();
+        }
+
         super.display();
-        this.element.innerHTML = this.figure.getCoatOfArmsImg() + "<span class='tooltiptext'>" + this.text + "</span>";
+        this.addStats();
+        this.element.innerHTML = this.figure.getCoatOfArmsImg(this.getWidth(), this.getHeight()) + "<span class='tooltiptext'>" + this.text + "</span>";
+    }
+    
+    addStats() {
+        if (this.statsAdded) {
+            return;
+        }
+        this.text += "<br><br>Insgesamt " + this.stays + " Aufenthalt";
+        if (this.stays > 1) {
+            this.text += "e";
+        }
+        this.text +=  " über " + this.days + " Tag";
+        if (this.days > 1) {
+            this.text += "e";
+        }
+        this.text += ".";
+        this.statsAdded = true;
+    }
+
+    hide() {
+        super.hide();
+        let city = DATA.getCity(this.place);
+        if (city != null) {
+            city.display();
+        }
+    }
+
+    getWidth() {
+        return 25 * (0.25 + this.days / this.figure.maxDays);
+    }
+
+    getHeight() {
+        return 30 * (0.25 + this.days / this.figure.maxDays);
     }
 
 }

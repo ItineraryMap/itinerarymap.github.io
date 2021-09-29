@@ -6,6 +6,15 @@ class DataManager {
         this.loadFigures();
     }
 
+    getCity(name) {
+        for (let c of this.cities) {
+            if (c.name == name) {
+                return c;
+            }
+        }
+        return null;
+    }
+
     getFigure(id) {
         for (let f of this.figures) {
             if (f.id == id) {
@@ -80,19 +89,19 @@ class DataManager {
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 figure.waypoints = JSON.parse(this.responseText);
+                figure.maxDays = 0;
                 for (let w of figure.waypoints) {
                     w.figure = figure;
-                    if (w.x == null || w.y == null) {
-                        for (let c of DATA.cities) {
-                            if (c.name == w.place) {
-                                w.x = c.x;
-                                w.y = c.y;
-                                break;
-                            }
-                        }
+                    let c = DATA.getCity(w.place);
+                    if (c != null && (w.x == null || w.y == null)) {
+                        w.x = c.x;
+                        w.y = c.y;
                     }
                     w.marker = figure.getOrCreateMarker(w.place, w.x, w.y);
                     w.marker.addStay(w.date, w.comment);
+                    if (w.marker.days > figure.maxDays) {
+                        figure.maxDays = w.marker.days;
+                    }
                 }
                 for (let e of figure.markers) {
                     e[1].display();

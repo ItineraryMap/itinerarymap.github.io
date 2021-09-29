@@ -169,10 +169,6 @@ div#debug-overlay {
 .waypoint {
     cursor: pointer;
 }
-.waypoint img {
-    width: 25px;
-    height: 30px;
-}
 .waypoint .tooltiptext {
     width: 440px;
     text-align: center;

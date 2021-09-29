@@ -42,8 +42,8 @@ class Figure {
         }
     }
 
-    getCoatOfArmsImg() {
-        return "<img src='resources/coa/" + this.id +".svg'>";
+    getCoatOfArmsImg(width, height) {
+        return "<img src='resources/coa/" + this.id + ".svg' width='" + width + "' height='" + height + "'>";
     }
 
     getCoatOfArmsSrc() {
