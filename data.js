@@ -46,6 +46,17 @@ class DataManager {
                 for (let f of DATA.figures) {
                     Object.setPrototypeOf(f, Figure.prototype);
                     options += "<option value='" + f.id + "'>" + f.listEntry + "</option>";
+                    let xmlhttp = new XMLHttpRequest();
+                    xmlhttp.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                            f.waypoints = JSON.parse(this.responseText);
+                            if (f == DATA.figures[0]) {
+                                DATA.setLoadedFigure(DATA.figures[0]);
+                            }
+                        }
+                    };
+                    xmlhttp.open("GET", "resources/waypoints/" + f.id + ".json", true);
+                    xmlhttp.send();
                 }
                 selector.innerHTML = options;
                 selector.addEventListener("change", function() {
@@ -54,7 +65,6 @@ class DataManager {
                         DATA.setLoadedFigure(figure);
                     }
                 });
-                DATA.setLoadedFigure(DATA.figures[0]);
             }
         };
         xmlhttp.open("GET", "resources/figures.json", true);
@@ -84,34 +94,10 @@ class DataManager {
         xmlhttp.send();
     }
 
-    loadWaypoints(figure) {
-        let xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                figure.waypoints = JSON.parse(this.responseText);
-                figure.maxDays = 0;
-                for (let w of figure.waypoints) {
-                    w.figure = figure;
-                    let c = DATA.getCity(w.place);
-                    if (c != null && (w.x == null || w.y == null)) {
-                        w.x = c.x;
-                        w.y = c.y;
-                    }
-                    w.marker = figure.getOrCreateMarker(w.place, w.x, w.y);
-                    w.marker.addStay(w.date, w.comment);
-                    if (w.marker.days > figure.maxDays) {
-                        figure.maxDays = w.marker.days;
-                    }
-                }
-                for (let e of figure.markers) {
-                    e[1].display();
-                }
-            }
-        };
-        xmlhttp.open("GET", "resources/waypoints/" + figure.id + ".json", true);
-        xmlhttp.send();
-    }
+}
 
+function compare(date, year) {
+    return date.substring(0, 4) - year;
 }
 
 const DATA = new DataManager();

@@ -10,7 +10,9 @@
         "placeOfDeath": "ebd.",
         "titles": ["König (1346) und Kaiser (1355) des Heiligen Römischen Reichs", "König von Böhmen (1347)", "Markgraf von Brandenburg (1373)"],
         "coatOfArms": "e/ed/HRE_Luxembourg_Bohemia",
-        "db": "sfz70316"
+        "db": "sfz70316",
+        "yearAsOf": 1346,
+        "yearUntil": 1378
     },
 	{
         "id": "sigismund-hrr",
@@ -23,6 +25,8 @@
         "placeOfDeath": "Znaim",
         "titles": ["König (1411) und Kaiser (1433) des Heiligen Römischen Reichs", "König von Ungarn und Kroatien (1387)", "König von Böhmen (1419)", "Markgraf von Brandenburg (1378-1388 & 1411-1415)"],
         "coatOfArms": "9/9d/HRE_Sigismund",
-        "db": "sfz56308"
+        "db": "sfz56308",
+        "yearAsOf": 1410,
+        "yearUntil": 1437
     }
 ]

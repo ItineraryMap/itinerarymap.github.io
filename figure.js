@@ -25,14 +25,59 @@ class Figure {
             html += t + "<br>";
         }
         box.innerHTML = html;
-        if (this.waypoints == null) {
-            this.waypoints = new Set();
-            this.markers = new Map();
-            DATA.loadWaypoints(this);
-        } else {
-            for (let e of this.markers) {
-                e[1].display();
+        
+        let selectorAsOf = document.querySelector("#year-asof");
+        let selectorUntil = document.querySelector("#year-until");
+        let options = "";
+        this.currentYearAsOf = this.yearAsOf;
+        this.currentYearUntil = this.yearUntil;
+        let year = this.yearAsOf;
+        while (year <= this.yearUntil) {
+            options += "<option value='" + year + "'>" + year + "</option>";
+            year++;
+        }
+        selectorAsOf.innerHTML = options;
+        selectorUntil.innerHTML = options;
+        selectorUntil.selectedIndex = this.yearUntil - this.yearAsOf;
+        selectorAsOf.addEventListener("change", function() {
+                DATA.getLoadedFigure().displayWaypoints();
+                DATA.getLoadedFigure().currentYearAsOf = this.value;
+            });
+        selectorUntil.addEventListener("change", function() {
+                DATA.getLoadedFigure().displayWaypoints();
+                DATA.getLoadedFigure().currentYearUntil = this.value;
+            });
+        this.displayWaypoints();
+    }
+
+    displayWaypoints() {
+        if (this.markers != null) {
+            this.hide();
+        }
+        this.markers = new Map();
+        this.maxDays = 0;
+        for (let w of this.waypoints) {
+            w.figure = this;
+            let c = DATA.getCity(w.place);
+            if (c != null && (w.x == null || w.y == null)) {
+                w.x = c.x;
+                w.y = c.y;
             }
+            w.marker = this.getOrCreateMarker(w.place, w.x, w.y);
+            if ((w.length > 1 && compare(w.date[1], this.currentYearAsOf) < 0) ||
+                (w.length == 1 && compare(w.date[0], this.currentYearAsOf) < 0)) {
+                continue;
+            }
+            if (compare(w.date[0], this.currentYearUntil) > 0) {
+                break;
+            }
+            w.marker.addStay(w.date, w.comment);
+            if (w.marker.days > this.maxDays) {
+                this.maxDays = w.marker.days;
+            }
+        }
+        for (let e of this.markers) {
+            e[1].display();
         }
     }
 
