@@ -41,6 +41,7 @@ class Waypoint extends Marker {
         if (this.days == null) {
             this.days = 0;
         }
+        this.text += "<br>" + date[0];
         if (date.length == 1) {
             this.days++;
             return;
@@ -49,7 +50,6 @@ class Waypoint extends Marker {
         let date2 = new Date(date[1]);
         this.days += (date2.getTime() - date1.getTime()) / (1000 * 60 * 60 * 24);
 
-        this.text += "<br>" + date[0];
         if (date.length > 1) {
             this.text += " bis " + date[1];
         }
