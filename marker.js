@@ -59,6 +59,13 @@ class Waypoint extends Marker {
     }
 
     display() {
+        if (this.x == null || this.y == null) {
+            console.log("Wegpunkt " + this.place + " hat keine Koordinaten.");
+            return;
+        }
+        if (this.stays == null) {
+            return;
+        }
         let city = DATA.getCity(this.place);
         if (city != null) {
             city.hide();

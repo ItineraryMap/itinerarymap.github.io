@@ -64,8 +64,8 @@ class Figure {
                 w.y = c.y;
             }
             w.marker = this.getOrCreateMarker(w.place, w.x, w.y);
-            if ((w.length > 1 && compare(w.date[1], this.currentYearAsOf) < 0) ||
-                (w.length == 1 && compare(w.date[0], this.currentYearAsOf) < 0)) {
+            if ((w.date.length > 1 && compare(w.date[1], this.currentYearAsOf) < 0) ||
+                (w.date.length == 1 && compare(w.date[0], this.currentYearAsOf) < 0)) {
                 continue;
             }
             if (compare(w.date[0], this.currentYearUntil) > 0) {
