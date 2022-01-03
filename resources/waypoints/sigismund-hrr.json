@@ -12,8 +12,6 @@
         "place": "Ofen"
     },
 	{
-        "x": 0.542,
-        "y": 0.413,
         "date": ["1410-01-27"],
         "place": "Waitzen"
     },
@@ -58,8 +56,6 @@
         "place": "Végles"
     },
 	{
-        "x": 0.521,
-        "y": 0.401,
         "date": ["1410-05-19", "1410-05-22"],
         "place": "Tyrnau"
     },
@@ -99,10 +95,8 @@
         "comment": "20.9.: Erste Königswahl."
     },
 	{
-        "x": 0.1,
-        "y": 0.1,
         "date": ["1410-10-06", "1410-10-12"],
-        "place": "Klychanoecz???"
+        "place": "Klychanoecz"
     },
 	{
         "x": 0.55,
@@ -151,10 +145,8 @@
         "place": "Szond"
     },
 	{
-        "x": 0.13,
-        "y": 0.1,
         "date": ["1410-12-13", "1410-12-29"],
-        "place": "Diako???"
+        "place": "Diako"
     },
 	{
         "date": ["1411-01-01", "1411-02-02"],
@@ -169,16 +161,12 @@
         "place": "Mischkolz"
     },
 	{
-        "x": 0.568,
-        "y": 0.41,
         "date": ["1411-02-24", "1411-02-25"],
-        "place": "Diosgyor"
+        "place": "Diósgyor"
     },
 	{
-        "x": 0.568,
-        "y": 0.41,
         "date": ["1411-03-01"],
-        "place": "Diosgyor"
+        "place": "Diósgyor"
     },
 	{
         "date": ["1411-03-03"],
@@ -268,14 +256,10 @@
         "place": "Ofen"
     },
 	{
-        "x": 0.2,
-        "y": 0.1,
         "date": ["1411-08-08", "1411-08-09"],
         "place": "In Heukuth"
     },
 	{
-        "x": 0.23,
-        "y": 0.1,
         "date": ["1411-08-09"],
         "place": "Zu dem warmen Brunn"
     },
@@ -390,20 +374,14 @@
         "place": "Debrezin"
     },
     {
-        "x": 0.18,
-        "y": 0.1,
         "date": ["1412-04-25"],
         "place": "Böszörmény"
     },
     {
-        "x": 0.568,
-        "y": 0.41,
         "date": ["1412-04-29", "1412-05-06"],
-        "place": "Diosgyor"
+        "place": "Diósgyor"
     },
     {
-        "x": 0.566,
-        "y": 0.416,
         "date": ["1412-05-06", "1412-05-11"],
         "place": "Erlau"
     },
@@ -555,10 +533,10 @@
         "place": "Feltre"
     },
     {
-        "x": 0.23,
-        "y": 0.1,
+        "x": 0.366,
+        "y": 0.47,
         "date": ["1413-05-30", "1413-05-31"],
-        "place": "Serravalle"
+        "place": "Serravalle Scrivia"
     },
     {
         "date": ["1413-06-01"],
@@ -656,18 +634,24 @@
         "place": "Piacenza"
     },
     {
+        "x": 0.361,
+        "y": 0.47,
         "date": ["1414-03-05"],
         "place": "Acqui"
     },
     {
+        "x": 0.366,
+        "y": 0.47,
         "date": ["1414-03-13", "1414-03-15"],
-        "place": "Serravalle (Scrivia)"
+        "place": "Serravalle Scrivia"
     },
     {
         "date": ["1414-03-24"],
         "place": "Teplici (bei Ferrere)"
     },
     {
+        "x": 0.361,
+        "y": 0.47,
         "date": ["1414-04-02"],
         "place": "Acqui"
     },
@@ -678,6 +662,7 @@
         "place": "Nizza Monferrato"
     },
     {
+        "comment": "Unklar, ob Rivoli Veronese oder Rivoli (heute Stadtteil von Turin)",
         "date": ["1414-04-15"],
         "place": "Rivoli",
         "comment": "Mitte April."
@@ -687,28 +672,40 @@
         "place": "Asti"
     },
     {
+        "x": 0.358,
+        "y": 0.462,
         "date": ["1414-05-08", "1414-05-19"],
-        "place": "Pontestura (Pontestewr)"
+        "place": "Pontestura"
     },
     {
+        "x": 0.3575,
+        "y": 0.464,
         "date": ["1414-05-27", "1414-06-08"],
         "place": "Moncalvo"
     },
     {
+        "x": 0.356,
+        "y": 0.459,
         "date": ["1414-06-11"],
         "place": "Trino"
     },
     {
+        "x": 0.358,
+        "y": 0.462,
         "date": ["1414-06-12", "1414-06-22"],
         "place": "Pontestura"
     },
     {
+        "x": 0.356,
+        "y": 0.459,
         "date": ["1414-06-25", "1414-05-26"],
         "place": "Trino"
     },
     {
+        "x": 0.326,
+        "y": 0.437,
         "date": ["1414-06-30"],
-        "place": "Romanel (Romont)",
+        "place": "Romanel",
         "comment": "Ende Juni"
     },
     {
@@ -720,6 +717,8 @@
         "place": "Bern"
     },
     {
+        "x": 0.342,
+        "y": 0.426,
         "date": ["1414-07-07", "1414-07-08"],
         "place": "Solothurn"
     },
@@ -780,6 +779,8 @@
         "place": "Koblenz"
     },
     {
+        "x": 0.339,
+        "y": 0.37,
         "date": ["1414-10-08"],
         "place": "Andernach"
     },
@@ -792,6 +793,8 @@
         "place": "Aachen"
     },
     {
+        "x": 0.33,
+        "y": 0.364,
         "date": ["1414-11-13", "1414-11-14"],
         "place": "Lechenich"
     },
@@ -804,6 +807,8 @@
         "place": "Köln"
     },
     {
+        "x": 0.339,
+        "y": 0.37,
         "date": ["1414-12-01", "1414-12-02"],
         "place": "Andernach"
     },
@@ -812,6 +817,8 @@
         "place": "Wetzlar"
     },
     {
+        "x": 0.3655,
+        "y": 0.371,
         "date": ["1414-12-07", "1414-12-09"],
         "place": "Friedberg"
     },
@@ -832,6 +839,8 @@
         "place": "Stuttgart"
     },
     {
+        "x": 0.3714,
+        "y": 0.415,
         "date": ["1414-12-24"],
         "place": "Überlingen"
     },
@@ -842,13 +851,16 @@
     },
     {
         "date": ["1414-12-28", "1415-01-25"],
-        "place": "Kloster St. Petershausen"
+        "place": "Konstanz",
+        "comment": "Kloster St. Petershausen."
     },
     {
         "date": ["1415-01-26", "1415-04-23"],
         "place": "Konstanz"
     },
     {
+        "x": 0.37,
+        "y": 0.417,
         "date": ["1415-04-24", "1415-04-25"],
         "place": "Radolfzell",
         "comment": "Im Felde."
@@ -858,6 +870,8 @@
         "place": "Konstanz"
     },
     {
+        "x": 0.379,
+        "y": 0.416,
         "date": ["1415-07-11"],
         "place": "Oberzell"
     },
@@ -874,10 +888,14 @@
         "place": "Basel"
     },
     {
+        "x": 0.342,
+        "y": 0.426,
         "date": ["1415-07-24"],
         "place": "Solothurn"
     },
     {
+        "x": 0.338,
+        "y": 0.428,
         "date": ["1415-07-24"],
         "place": "Aarberg"
     },
@@ -886,6 +904,8 @@
         "place": "Genf"
     },
     {
+        "x": 0.315,
+        "y": 0.448,
         "date": ["1415-07-28"],
         "place": "Seyssel"
     },
@@ -903,13 +923,15 @@
     },
     {
         "date": ["1415-08-10", "1415-08-13"],
-        "place": "Nimes im Languedoc"
+        "place": "Nîmes"
     },
     {
         "date": ["1415-08-15", "1415-09-05"],
         "place": "Narbonne"
     },
     {
+        "x": 0.268,
+        "y": 0.496,
         "date": ["1415-09-17"],
         "place": "Canet"
     },
@@ -918,6 +940,8 @@
         "place": "Perpignan"
     },
     {
+        "x": 0.269,
+        "y": 0.4945,
         "date": ["1415-11-06"],
         "place": "Sigean"
     },
@@ -955,14 +979,20 @@
         "place": "Paris"
     },
     {
+        "x": 0.255,
+        "y": 0.393,
         "date": ["1416-04-08"],
         "place": "St. Denis"
     },
     {
+        "x": 0.253,
+        "y": 0.39,
         "date": ["1416-04-13"],
         "place": "Beaumont"
     },
     {
+        "x": 0.25,
+        "y": 0.386,
         "date": ["1416-04-15"],
         "place": "Beauvais"
     },
@@ -987,10 +1017,14 @@
         "place": "London"
     },
     {
+        "x": 0.203,
+        "y": 0.353,
         "date": ["1416-05-22"],
         "place": "Windsor"
     },
     {
+        "x": 0.218,
+        "y": 0.3525,
         "date": ["1416-05-25", "1416-06-22"],
         "place": "Westminster"
     },
@@ -999,14 +1033,20 @@
         "place": "London"
     },
     {
+        "x": 0.229,
+        "y": 0.356,
         "date": ["1416-06-28", "1416-07-21"],
-        "place": "Leeds (Schloss in Kent)"
+        "place": "Leeds Castle"
     },
     {
+        "x": 0.225,
+        "y": 0.354,
         "date": ["1416-07-27"],
         "place": "Rochester"
     },
     {
+        "x": 0.222,
+        "y": 0.3535,
         "date": ["1416-07-21", "1416-08-09"],
         "place": "Eltham"
     },
@@ -1023,8 +1063,10 @@
         "place": "Calais"
     },
     {
+        "x": 0.287,
+        "y": 0.3485,
         "date": ["1416-11-04", "1416-11-07"],
-        "place": "Dortrecht"
+        "place": "Dordrecht"
     },
     {
         "date": ["1416-11-13", "1416-11-21"],
@@ -1063,6 +1105,8 @@
         "place": "Konstanz"
     },
     {
+        "x": 0.37,
+        "y": 0.417,
         "date": ["1417-04-04", "1417-04-13"],
         "place": "Radolfzell"
     },
@@ -1071,6 +1115,8 @@
         "place": "Konstanz"
     },
     {
+        "x": 0.373,
+        "y": 0.416,
         "date": ["1417-07-18", "1417-07-23"],
         "place": "Meersburg"
     },
@@ -1091,6 +1137,8 @@
         "place": "Konstanz"
     },
     {
+        "x": 0.373,
+        "y": 0.416,
         "date": ["1418-04-14", "1418-04-16"],
         "place": "Meersburg"
     },
@@ -1099,6 +1147,8 @@
         "place": "Konstanz"
     },
     {
+        "x": 0.373,
+        "y": 0.419,
         "date": ["1418-04-26"],
         "place": "Münsterlingen"
     },
@@ -1107,18 +1157,24 @@
         "place": "Konstanz"
     },
     {
+        "x": 0.401,
+        "y": 0.416,
         "date": ["1418-05-14"],
         "place": "Dattenried"
     },
     {
+        "x": 0.33,
+        "y": 0.42,
         "date": ["1418-05-25", "1418-05-28"],
-        "place": "Mömpelgrad"
+        "place": "Mömpelgard"
     },
     {
         "date": ["1418-05-29", "1418-06-05"],
         "place": "Basel"
     },
     {
+        "x": 0.345,
+        "y": 0.411,
         "date": ["1418-06-09"],
         "place": "Breisach"
     },
@@ -1131,10 +1187,14 @@
         "place": "Straßburg"
     },
     {
+        "x": 0.35,
+        "y": 0.396,
         "date": ["1418-07-11", "1418-07-26"],
         "place": "Hagenau"
     },
     {
+        "x": 0.353,
+        "y": 0.394,
         "date": ["1418-07-28"],
         "place": "Weißenburg im Elsaß"
     },
@@ -1143,6 +1203,8 @@
         "place": "Baden"
     },
     {
+        "x": 0.3575,
+        "y": 0.3955,
         "date": ["1418-08-05", "1418-08-07"],
         "place": "Ettlingen"
     },
@@ -1151,6 +1213,8 @@
         "place": "Pforzheim"
     },
     {
+        "x": 0.367,
+        "y": 0.396,
         "date": ["1418-08-10", "1418-08-11"],
         "place": "Weil der Stadt"
     },
@@ -1267,6 +1331,8 @@
         "place": "Kaschau"
     },
     {
+        "x": 0.537,
+        "y": 0.399,
         "date": ["1419-07-02"],
         "place": "Altsohl"
     },
@@ -1292,14 +1358,20 @@
         "place": "Großwardein"
     },
     {
+        "x": 0.602,
+        "y": 0.471,
         "date": ["1419-10-26", "1419-10-28"],
         "place": "Kladovo"
     },
     {
+        "x": 0.6,
+        "y": 0.468,
         "date": ["1419-10-28"],
         "place": "Orschowa"
     },
     {
+        "x": 0.603,
+        "y": 0.468,
         "date": ["1419-09-12"],
         "place": "Severin"
     },
@@ -1320,6 +1392,8 @@
         "place": "Brünn"
     },
     {
+        "x": 0.512,
+        "y": 0.37,
         "date": ["1420-01-04"],
         "place": "Neisse"
     },
@@ -1337,6 +1411,8 @@
         "place": "Königgrätz"
     },
     {
+        "x": 0.464,
+        "y": 0.371,
         "date": ["1420-05-27"],
         "place": "Melnik"
     },
@@ -1359,6 +1435,8 @@
         "place": "Königsaal"
     },
     {
+        "x": 0.454,
+        "y": 0.382,
         "date": ["1420-06-20"],
         "place": "Totschnik"
     },
@@ -1388,6 +1466,8 @@
         "place": "Tschaslau"
     },
     {
+        "x": 0.456,
+        "y": 0.38,
         "date": ["1420-10-28", "1420-10-29"],
         "place": "Beraun"
     },
@@ -1528,7 +1608,7 @@
     },
     {
         "date": ["1421-07-04"],
-        "place": "Theben (Devín)"
+        "place": "Theben"
     },
     {
         "date": ["1421-07-04", "1421-07-26"],
@@ -1599,7 +1679,7 @@
     },
     {
         "date": ["1422-01-13"],
-        "place": "In villa Schath"
+        "place": "In Villa Schath"
     },
     {
         "date": ["1422-01-24"],
@@ -1627,7 +1707,7 @@
     },
     {
         "date": ["1422-03-15", "1422-03-18"],
-        "place": "Kremiser"
+        "place": "Kremisier"
     },
     {
         "date": ["1422-03-20"],
@@ -1703,7 +1783,7 @@
     },
     {
         "date": ["1422-07-14", "1422-07-15"],
-        "place": "Ebelsberg (Ebersberg)"
+        "place": "Ebelsberg"
     },
     {
         "date": ["1422-07-19"],
@@ -1738,16 +1818,20 @@
         "place": "Preßburg"
     },
     {
+        "x": 0.505,
+        "y": 0.409,
         "date": ["1423-01-14"],
-        "place": "Hundesheimer Berg (Mincumberg am Ungerischen Gemercke)"
+        "place": "Hundsheimer Berg"
     },
     {
         "date": ["1423-01-15", "1423-01-21"],
         "place": "Preßburg"
     },
     {
+        "x": 0.521,
+        "y": 0.4025,
         "date": ["1423-01-24", "1423-01-30"],
-        "place": "Zeleni (möglicherweise Zelenec)"
+        "place": "Zeleneč"
     },
     {
         "date": ["1423-01-31"],
@@ -1812,6 +1896,8 @@
         "place": "Kaschau"
     },
     {
+        "x": 0.537,
+        "y": 0.399,
         "date": ["1423-07-16", "1423-07-17"],
         "place": "Altsohl"
     },
@@ -1901,7 +1987,7 @@
     },
     {
         "date": ["1424-03-02"],
-        "place": "Neumarkt"
+        "place": "Neumarkt in Kleinpolen"
     },
     {
         "date": ["1424-03-03"],
@@ -1913,7 +1999,7 @@
     },
     {
         "date": ["1424-03-23"],
-        "place": "(Alt- oder Neu-) Sandez (Czans)"
+        "place": "Neu-Sandez"
     },
     {
         "date": ["1424-03-27", "1424-03-30"],
@@ -2019,7 +2105,7 @@
     },
     {
         "date": ["1425-04-25"],
-        "place": "Kesztölc (in castro Kestech)"
+        "place": "Kesztölc"
     },
     {
         "date": ["1425-05-02", "1425-05-26"],
@@ -2067,11 +2153,12 @@
     },
     {
         "date": ["1425-10-03"],
-        "place": "Laa a.d. Thaya"
+        "place": "Laa an der Thaya"
     },
     {
         "date": ["1425-10-09"],
-        "place": "Im Feldlager bei Pohrlitz"
+        "place": "Pohrlitz",
+        "comment": "Im Feldlager."
     },
     {
         "date": ["1425-10-17"],
@@ -2083,19 +2170,21 @@
     },
     {
         "date": ["1425-10-28"],
-        "place": "Im Feldlager bei Drasow"
+        "place": "Drasow",
+        "comment": "Im Feldlager."
     },
     {
         "date": ["1425-10-29"],
-        "place": "Im Felde zwischen Drasow und Pardubitz"
+        "place": "Pardubitz",
+        "comment": "Im Feldlager."
     },
     {
         "date": ["1425-11-10"],
-        "place": "Kremsier"
+        "place": "Kremisier"
     },
     {
         "date": ["1425-11-16", "1425-11-19"],
-        "place": "Göding (Godingen; Hodonym, Olomuc dioc.)"
+        "place": "Göding"
     },
     {
         "date": ["1425-11-19", "1425-12-09"],
@@ -2156,7 +2245,7 @@
     },
     {
         "date": ["1426-06-11", "1426-06-23"],
-        "place": "Raab (Jaurinum; Jawrino) (Gyor)"
+        "place": "Raab"
     },
     {
         "date": ["1426-07-02", "1426-08-01"],
@@ -2192,15 +2281,15 @@
     },
     {
         "date": ["1426-11-05", "1426-11-23"],
-        "place": "Lippa (Zu der Lippe)"
+        "place": "Lippa"
     },
     {
         "date": ["1426-12-06"],
-        "place": "Thorenburg (Tordae)"
+        "place": "Thorenburg"
     },
     {
         "date": ["1426-12-24", "1427-01-13"],
-        "place": "Kornstadt (Cron in Wurzland; Brasschovie)"
+        "place": "Kronstadt"
     },
     {
         "date": ["1427-01-24"],
@@ -2213,15 +2302,15 @@
     },
     {
         "date": ["1427-04-08", "1427-04-22"],
-        "place": "Marienburg (Feoldvar Transsylvaniae; Marienburg in Wurczland)"
+        "place": "Marienburg in Transsylvanien"
     },
     {
         "date": ["1427-04-23", "1427-05-06"],
-        "place": "Sepsiszentgyörgy (in Czekel Lande)"
+        "place": "Sepsiszentgyörgy"
     },
     {
         "date": ["1427-05-09", "1427-05-24"],
-        "place": "Marienburg"
+        "place": "Marienburg in Transsylvanien"
     },
     {
         "date": ["1427-05-25"],
@@ -2229,23 +2318,23 @@
     },
     {
         "date": ["1427-05-26", "1427-05-28"],
-        "place": "Marienburg"
+        "place": "Marienburg in Transsylvanien"
     },
     {
         "date": ["1427-05-31", "1427-06-03"],
-        "place": "Nußbach (Monyoros terrae Barczensis Transs.) (in Siebenbürgen)"
+        "place": "Nußbach"
     },
     {
         "date": ["1427-06-12"],
-        "place": "Marienburg"
+        "place": "Marienburg in Transsylvanien"
     },
     {
         "date": ["1427-06-16", "1427-07-01"],
-        "place": "Kronstadt (Zur Cron in Wurtzland; Brassoviae; Brasov)"
+        "place": "Kronstadt"
     },
     {
         "date": ["1427-07-02", "1427-07-07"],
-        "place": "Rosenau (Risnow; Rosno vovato, Transs.)"
+        "place": "Rosenau"
     },
     {
         "date": ["1427-07-08"],
@@ -2261,11 +2350,13 @@
     },
     {
         "date": ["1427-09-24", "1427-09-27"],
-        "place": "Im Lager vor Ungarisch-Weißkirchen"
+        "place": "Ungarisch-Weißkirchen",
+        "comment": "Im Feldlager."
     },
     {
         "date": ["1427-09-29", "1427-12-03"],
-        "place": "Im Felde bei Belgrad"
+        "place": "Belgrad",
+        "comment": "Im Felde."
     },
     {
         "date": ["1427-12-03", "1427-12-04"],
@@ -2273,39 +2364,47 @@
     },
     {
         "date": ["1427-12-17", "1428-01-08"],
-        "place": "Keve (Kewin; Cubin; Kofin)"
+        "place": "Kubin"
     },
     {
+        "x": 0.586,
+        "y": 0.468,
         "date": ["1428-01-09", "1428-02-06"],
-        "place": "Poscheschena (Pozezena; Pozesin)"
+        "place": "Požežena"
     },
     {
         "date": ["1428-02-10", "1428-03-23"],
-        "place": "Severin (Tornowa; Tornawa)"
+        "place": "Severin"
     },
     {
         "date": ["1428-06-22", "1428-07-27"],
-        "place": "Keve"
+        "place": "Kubin"
     },
     {
+        "x": 0.592,
+        "y": 0.461,
         "date": ["1428-08-24", "1428-09-11"],
-        "place": "Illyéd (Ilied unter Temesburg; Ilied)"
+        "place": "Illyéd"
     },
     {
+        "x": 0.614,
+        "y": 0.449,
         "date": ["1428-09-20", "1428-09-29"],
-        "place": "Maros-Váradja (Varadgya; Waradia)"
+        "place": "Marosalsóváradja"
     },
     {
         "date": ["1428-09-29", "1428-10-09"],
-        "place": "Mühlbach (Sebesch)"
+        "place": "Mühlbach"
     },
     {
+        "x": 0.598,
+        "y": 0.462,
         "date": ["1428-11-16", "1428-11-19"],
         "place": "Miháld"
     },
     {
         "date": ["1428-11-26", "1428-12-02"],
-        "place": "Karánsebes (Karansebes)"
+        "place": "Karansebesch"
     },
     {
         "date": ["1428-12-08"],
@@ -2325,7 +2424,7 @@
     },
     {
         "date": ["1429-01-22", "1429-01-29"],
-        "place": "Luzk/Luck"
+        "place": "Luzk"
     },
     {
         "date": ["1429-02-03"],
@@ -2333,7 +2432,7 @@
     },
     {
         "date": ["1429-02-06"],
-        "place": "Landshut (Lancucie)"
+        "place": "Łańcut"
     },
     {
         "date": ["1429-02-12", "1429-02-13"],
@@ -2345,7 +2444,7 @@
     },
     {
         "date": ["1429-03-06", "1429-03-07"],
-        "place": "Erlau (Erlach)"
+        "place": "Erlau"
     },
     {
         "date": ["1429-03-17", "1429-03-20"],
@@ -2361,7 +2460,7 @@
     },
     {
         "date": ["1430-04-29", "1430-05-08"],
-        "place": "Schintau (Sempthe)"
+        "place": "Schintau"
     },
     {
         "date": ["1430-06-07"],
@@ -2433,7 +2532,7 @@
     },
     {
         "date": ["1431-01-28", "1431-01-29"],
-        "place": "Reutlingen (Rutlingen)"
+        "place": "Reutlingen"
     },
     {
         "date": ["1431-01-31"],
@@ -2441,11 +2540,11 @@
     },
     {
         "date": ["1431-01-31"],
-        "place": "Schorndorf (Schorendorf)"
+        "place": "Schorndorf"
     },
     {
         "date": ["1431-02-01"],
-        "place": "Gmünd"
+        "place": "Schwäbisch Gmünd"
     },
     {
         "date": ["1431-02-02", "1431-05-08"],
@@ -2486,7 +2585,7 @@
     },
     {
         "date": ["1431-09-12"],
-        "place": "Landsberg/Lech"
+        "place": "Landsberg am Lech"
     },
     {
         "date": ["1431-09-15", "1431-09-16"],
@@ -2498,11 +2597,13 @@
     },
     {
         "date": ["1431-09-20", "1431-10-30"],
-        "place": "Feldkirch (Felkirch; Felkyrchen; Feltkirch)"
+        "place": "Feldkirch"
     },
     {
+        "x": 0.367,
+        "y": 0.433,
         "date": ["1431-10-30"],
-        "place": "Kloster Disentis (Tisitis)"
+        "place": "Kloster Disentis"
     },
     {
         "date": ["1431-09-25", "1431-12-16"],
@@ -2519,7 +2620,7 @@
     },
     {
         "date": ["1432-05-26"],
-        "place": "Terenzo (Therentium)"
+        "place": "Terenzo"
     },
     {
         "date": ["1432-05-31", "1432-07-04"],
@@ -2527,7 +2628,7 @@
     },
     {
         "date": ["1432-07-07"],
-        "place": "Bei Peccioli (decensum nostro campestris retro castellum Peccioli)"
+        "place": "Peccioli"
     },
     {
         "date": ["1432-07-12", "1433-04-23"],
@@ -2582,7 +2683,7 @@
     },
     {
         "date": ["1433-10-01", "1433-10-02"],
-        "place": "Pistoja"
+        "place": "Pistoia"
     },
     {
         "date": ["1433-10-04"],
@@ -2613,6 +2714,8 @@
         "place": "Schaffhausen"
     },
     {
+        "x": 0.37,
+        "y": 0.417,
         "date": ["1434-05-24", "1434-05-25"],
         "place": "Radolfzell"
     },
@@ -2630,7 +2733,7 @@
     },
     {
         "date": ["1434-10-07", "1434-10-08"],
-        "place": "Bei Korneuburg"
+        "place": "Korneuburg"
     },
     {
         "date": ["1435-01-15"],
@@ -2690,7 +2793,7 @@
     },
     {
         "date": ["1436-04-11"],
-        "place": "Csanád (Czenaden)"
+        "place": "Tschanad"
     },
     {
         "date": ["1436-04-20"],
@@ -2747,11 +2850,11 @@
     },
     {
         "date": ["1437-11-18", "1437-11-21"],
-        "place": "Teltsch (Telcz)"
+        "place": "Teltsch"
     },
     {
         "date": ["1437-11-23"],
-        "place": "Mährisch-Budwitz (Ulmitz)",
+        "place": "Mährisch-Budwitz",
         "comment": "Nach 21.11."
     },
     {

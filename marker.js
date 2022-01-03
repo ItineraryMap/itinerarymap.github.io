@@ -75,7 +75,7 @@ class Waypoint extends Marker {
         this.addStats();
         this.element.innerHTML = this.figure.getCoatOfArmsImg(this.getWidth(), this.getHeight()) + "<span class='tooltiptext'>" + this.text + "</span>";
     }
-    
+
     addStats() {
         if (this.statsAdded) {
             return;

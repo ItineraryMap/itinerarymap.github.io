@@ -1,19 +1,4 @@
 [
-    {
-        "id": "karl4-hrr",
-        "name": "Karl IV.",
-        "listEntry": "Karl IV. (HRR)",
-        "dynasty": "Luxemburg",
-        "dateOfBirth": "1316",
-        "placeOfBirth": "Prag",
-        "dateOfDeath": "1378",
-        "placeOfDeath": "ebd.",
-        "titles": ["König (1346) und Kaiser (1355) des Heiligen Römischen Reichs", "König von Böhmen (1347)", "Markgraf von Brandenburg (1373)"],
-        "coatOfArms": "e/ed/HRE_Luxembourg_Bohemia",
-        "db": "sfz70316",
-        "yearAsOf": 1346,
-        "yearUntil": 1378
-    },
 	{
         "id": "sigismund-hrr",
         "name": "Sigismund",
