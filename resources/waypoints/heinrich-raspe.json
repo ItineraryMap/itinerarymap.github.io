@@ -1,0 +1,38 @@
+[
+	{
+        "date": ["1246-05-23"],
+        "place": "Veitshöchheim"
+    },
+    {
+        "date": ["1246-06-13"],
+        "place": "Wartburg"
+    },
+    {
+        "date": ["1246-07-21"],
+        "place": "Wartburg"
+    },
+    {
+        "date": ["1246-08-05"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1246-08-13"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1246-11-30"],
+        "place": "Wartburg"
+    },
+    {
+        "date": ["1246-12-15"],
+        "place": "Forchheim"
+    },
+    {
+        "date": ["1247-01-02"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1247-02-05"],
+        "place": "Zeilitzheim"
+    }
+]

@@ -1,0 +1,46 @@
+[
+	{
+        "date": ["1256-03-18"],
+        "place": "Soria"
+    },
+    {
+        "date": ["1256-05-05"],
+        "place": "Siguenza"
+    },
+    {
+        "date": ["1256-09-13"],
+        "place": "Segovia"
+    },
+    {
+        "date": ["1257-09-21", "1257-09-22"],
+        "place": "Burgos"
+    },
+    {
+        "date": ["1257-10-16"],
+        "place": "Burgos"
+    },
+    {
+        "date": ["1256-10-21"],
+        "place": "Segovia"
+    },
+    {
+        "date": ["1256-11-06"],
+        "place": "Segovia"
+    },
+    {
+        "date": ["1259-03-14"],
+        "place": "Toledo"
+    },
+    {
+        "date": ["1259-06-16"],
+        "place": "Toledo"
+    },
+    {
+        "date": ["1259-10-18"],
+        "place": "Toledo"
+    },
+    {
+        "date": ["1275-08"],
+        "place": "Beaucaire"
+    }
+]

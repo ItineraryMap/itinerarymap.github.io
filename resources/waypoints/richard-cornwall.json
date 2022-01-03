@@ -1,0 +1,66 @@
+[
+	{
+        "date": ["1257-07-14"],
+        "place": "Boppard"
+    },
+    {
+        "date": ["1257-10-29"],
+        "place": "Lüttich"
+    },
+    {
+        "date": ["1257-12-07"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1258-04-20"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1260-06-27"],
+        "place": "Cambrai"
+    },
+    {
+        "date": ["1260-08-03"],
+        "place": "Oppenheim"
+    },
+    {
+        "date": ["1260-09-04"],
+        "place": "Worms"
+    },
+    {
+        "date": ["1260-09-16"],
+        "place": "Worms"
+    },
+    {
+        "date": ["1260-10-04"],
+        "place": "Boppard"
+    },
+    {
+        "date": ["1262-07-02"],
+        "place": "Gent"
+    },
+    {
+        "date": ["1262-07-05"],
+        "place": "Löwen"
+    },
+    {
+        "date": ["1262-10-16"],
+        "place": "Hagenau"
+    },
+    {
+        "date": ["1262-11-20"],
+        "place": "Hagenau"
+    },
+    {
+        "date": ["1262-09-22"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1262-05-12"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1262-07-11"],
+        "place": "Mainz"
+    }
+]
