@@ -88,7 +88,7 @@ class Figure {
     }
 
     getCoatOfArmsImg(width, height) {
-        return "<img src='resources/coa/" + this.id + ".svg' width='" + width + "' height='" + height + "'>";
+        return "<img src='resources/coa/" + this.id + ".png' width='" + width + "' height='" + height + "'>";
     }
 
     getCoatOfArmsSrc() {
