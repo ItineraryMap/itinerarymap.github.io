@@ -1,7 +1,7 @@
 "use strict";
 class Figure {
 
-    constructor(id, name, listEntry, dynasty, dateOfBirth, placeOfBirth, dateOfDeath, placeOfDeath, titles, coatOfArms, db) {
+    constructor(id, name, listEntry, dynasty, dateOfBirth, placeOfBirth, dateOfDeath, placeOfDeath, titles, coatOfArms, db, countDays) {
         this.id = id;
         this.name = name;
         this.listEntry = listEntry;
@@ -13,6 +13,7 @@ class Figure {
         this.titles = titles;
         this.coatOfArms = coatOfArms;
         this.db = db;
+        this.countDays = countDays;
     }
 
     display() {

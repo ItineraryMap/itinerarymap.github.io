@@ -1,0 +1,486 @@
+[
+	{
+        "date": ["1376-07-06"],
+        "place": "Aachen",
+        "comment": "Königserhebung."
+    },
+    {
+        "date": ["1376"],
+        "place": "Gundelfingen"
+    },
+    {
+        "date": ["1376-11-07"],
+        "place": "Karlstein"
+    },
+    {
+        "date": ["1376-11-27"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1377-04-06"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1377-05-31"],
+        "place": "Rothenburg"
+    },
+    {
+        "date": ["1377-05-31"],
+        "place": "Rothenburg"
+    },
+    {
+        "date": ["1377-06-17"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1377-09-08"],
+        "place": "Pisek"
+    },
+    {
+        "date": ["1378-01-04"],
+        "place": "Paris"
+    },
+    {
+        "date": ["1378-02-24"],
+        "place": "Oppenheim"
+    },
+    {
+        "date": ["1378-03-17", "1378-03-19"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1378-09-01"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1378-09-20"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1378-11-29"],
+        "place": "Prag",
+        "comment": "Tod Karls IV. - Wenzel wird Alleinherrscher."
+    },
+    {
+        "date": ["1379-01-01"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1379-02-28", "1379-03-01"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1379-03-03"],
+        "place": "Oppenheim"
+    },
+    {
+        "date": ["1379-03-06"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1379-08-10"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1379-09-11"],
+        "place": "Rothenburg"
+    },
+    {
+        "date": ["1379-10-26", "1379-11-01"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1380-02-15"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1380-04-23", "1380-05-03"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1380-06-08"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1380-07-19"],
+        "place": "Mergentheim"
+    },
+    {
+        "date": ["1381-01-31", "1381-02-04"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1381-09-16"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1382-01-24"],
+        "place": "Budweis"
+    },
+    {
+        "date": ["1382-02-21"],
+        "place": "Budweis"
+    },
+    {
+        "date": ["1382-07-13", "1382-07-14"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1382-07-28", "1382-08-04"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1382-10-08"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1383-01-01"],
+        "place": "Eger"
+    },
+    {
+        "date": ["1383-03-12", "1383-03-14"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1383-06-23"],
+        "place": "Beraun"
+    },
+    {
+        "date": ["1383-07-20"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1383-10-19"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1384-01-17"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1384-07-05"],
+        "place": "Beraun"
+    },
+    {
+        "date": ["1384-07-28"],
+        "place": "Worms"
+    },
+    {
+        "date": ["1384-10-01"],
+        "place": "Luxemburg"
+    },
+    {
+        "date": ["1384-12-07", "1384-12-08"],
+        "place": "Koblenz"
+    },
+    {
+        "date": ["1384-12-16"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1384-12-21"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1385-03-19", "1385-03-23"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1385-04-09"],
+        "place": "Bürglitz"
+    },
+    {
+        "date": ["1385-07-02"],
+        "place": "Beraun"
+    },
+    {
+        "date": ["1385-07-15", "1385-07-16"],
+        "place": "Bürglitz"
+    },
+    {
+        "date": ["1385-08-17"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1385-08-18"],
+        "place": "Beraun"
+    },
+    {
+        "date": ["1385-10-20"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1385-01-20"],
+        "place": "Bürglitz"
+    },
+    {
+        "date": ["1386-10-19"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1386-11-30"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1386-12-13"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1387-03-21"],
+        "place": "Würzburg"
+    },
+    {
+        "date": ["1387-05-18"],
+        "place": "Bürglitz"
+    },
+    {
+        "date": ["1387-08-19", "1387-05-20"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1388-01-22", "1388-01-23"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1388-03-08"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1388-02-14", "1388-02-22"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1388-05-06"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1388-06-20"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1388-09-28"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1388-10-31"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1388-11-19"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1388-11-24"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1388-12-02"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1389-03-13"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1389-05"],
+        "place": "Eger",
+        "comment": "Reichstag; Sieg über den rheinisch-schwäbischen Städtebund."
+    },
+    {
+        "date": ["1389-08-31"],
+        "place": "Beraun"
+    },
+    {
+        "date": ["1389-09-27"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1389-10-29"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1389-11-07"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1389-11-29"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1389-12-21"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1390-02-03"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1390-08-16", "1390-08-20"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1390-11-11"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1391-01-04"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1391-03-12"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1391-04-22"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1391-06-12"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1391-07-15"],
+        "place": "Beraun"
+    },
+    {
+        "date": ["1391-09-11"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1391-12-30"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1392-03-28", "1392-03-31"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1392-08-10", "1393-01-30"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1393-04-30", "1393-05-01"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1393-06-05"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1394-05-05"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1394-05-08"],
+        "place": "Königshof",
+        "comment": "Gefangennahme durch Jobst von Mähren."
+    },
+    {
+        "date": ["1394-05-09", "1394-06-30"],
+        "place": "Prag",
+        "comment": "In Gefangenschaft. Freilassung nach Friedensschluss zwischen seinem Verbündeten Johann von Görlitz mit Jobst von Mähren."
+    },
+    {
+        "date": ["1394-08-25"],
+        "place": "Pisek"
+    },
+    {
+        "date": ["1394-09-22"],
+        "place": "Pisek"
+    },
+    {
+        "date": ["1394-11-09", "1394-12-22"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1394-12"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1395-01-14", "1395-04-06"],
+        "place": "Prag",
+        "comment": "Mehrere Aufenthalte."
+    },
+    {
+        "date": ["1395-07-16"],
+        "place": "Taus"
+    },
+    {
+        "date": ["1395-09-02", "1396-01-25"],
+        "place": "Prag",
+        "comment": "Mehrere Aufenthalte."
+    },
+    {
+        "date": ["1397-09-01", "1397-11-30"],
+        "place": "Nürnberg",
+        "comment": "September-November Rückkehr nach Deutschland"
+    },
+    {
+        "date": ["1397-12-01", "1398-02-01"],
+        "place": "Frankfurt",
+        "comment": "Dezember-Februar Rückkehr nach Deutschland"
+    },
+    {
+        "date": ["1398-03-01", "1398-03-04"],
+        "place": "Ivoix"
+    },
+    {
+        "date": ["1398-03-23"],
+        "place": "Reims",
+        "comment": "Treffen mit Karl IV. von Frankreich zur Beilegung des Kirchenschismas."
+    },
+    {
+        "date": ["1398-04-25"],
+        "place": "Trier"
+    },
+    {
+        "date": ["1398-04-28"],
+        "place": "Luxemburg"
+    },
+    {
+        "date": ["1398-06-05", "1398-06-07"],
+        "place": "Koblenz"
+    },
+    {
+        "date": ["1398-06-18", "1398-06-24"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1398-07-08", "1398-07-21"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1398-08-06"],
+        "place": "Elbogen"
+    },
+    {
+        "date": ["1398-10-28"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1398-12-13"],
+        "place": "Bettlern"
+    },
+    {
+        "date": ["1399-01-14", "1399-08-31"],
+        "place": "Prag",
+        "comment": "Mehrere Aufenthalte."
+    },
+    {
+        "date": ["1399-09-25", "1400-01-09"],
+        "place": "Bettlern",
+        "comment": "Mehrere Aufenthalte."
+    },
+    {
+        "date": ["1398-02-14"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1398-03-16"],
+        "place": "Prag"
+    },
+    {
+        "date": ["1398-04-03"],
+        "place": "Kuttenberg"
+    }
+]

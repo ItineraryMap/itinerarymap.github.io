@@ -1,0 +1,688 @@
+[
+	{
+        "date": ["1247-10-08"],
+        "place": "Neuß"
+    },
+    {
+        "date": ["1247-10-10"],
+        "place": "Neuß"
+    },
+    {
+        "date": ["1247-12-21"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1247-12-29"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1248-01-26"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1248-02-06"],
+        "place": "Löwen"
+    },
+    {
+        "date": ["1248-02-20"],
+        "place": "Zieriksee"
+    },
+    {
+        "date": ["1248-03-01"],
+        "place": "Rijnsburg"
+    },
+    {
+        "date": ["1248-03-05"],
+        "place": "Zieriksee"
+    },
+    {
+        "date": ["1248-03-25"],
+        "place": "s Gravenzande"
+    },
+    {
+        "date": ["1248-04-03"],
+        "place": "Utrecht"
+    },
+    {
+        "date": ["1248-04-13"],
+        "place": "Utrecht"
+    },
+    {
+        "date": ["1248-04-20"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1248-05-01"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1248-05-04"],
+        "place": "Herzogenrath"
+    },
+    {
+        "date": ["1248-05-07"],
+        "place": "Aachen",
+        "comment": "Belagerung"
+    },
+    {
+        "date": ["1248-06-15"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1248-07-08"],
+        "place": "Brügge"
+    },
+    {
+        "date": ["1248-07-13"],
+        "place": "Brügge"
+    },
+    {
+        "date": ["1248-08-18"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1248-09-03"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1248-10-16"],
+        "place": "Haarlem"
+    },
+    {
+        "date": ["1248-10-30"],
+        "place": "Aachen",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1248-11-05"],
+        "place": "Aachen",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1248-11-10", "1248-12-23"],
+        "place": "Kaiserwerth",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1248-12-26"],
+        "place": "Nijmwegen"
+    },
+    {
+        "date": ["1248-12-30"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1249-01-07", "1249-01-09"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1249-01-16"],
+        "place": "Andernach"
+    },
+    {
+        "date": ["1249-02-04"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1249-02-19", "1249-03-13"],
+        "place": "Ingelheim"
+    },
+    {
+        "date": ["1249-04-03"],
+        "place": "Eberbach"
+    },
+    {
+        "date": ["1249-04-16", "1249-04-27"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1249-05-09"],
+        "place": "Nassau"
+    },
+    {
+        "date": ["1249-06-19"],
+        "place": "Koblenz"
+    },
+    {
+        "date": ["1249-07-04", "1249-07-16"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1249-09-04"],
+        "place": "Koblenz"
+    },
+    {
+        "date": ["1249-09-20"],
+        "place": "Trechtinghausen"
+    },
+    {
+        "date": ["1249-10-02"],
+        "place": "Koblenz"
+    },
+    {
+        "date": ["1249-12-05"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1249-12-31"],
+        "place": "s Gravenzande"
+    },
+    {
+        "date": ["1250-02-01"],
+        "place": "Zieriksee"
+    },
+    {
+        "date": ["1250-02-12"],
+        "place": "Dordrecht"
+    },
+    {
+        "date": ["1250-03-15"],
+        "place": "Antwerpen"
+    },
+    {
+        "date": ["1250-03-31"],
+        "place": "Zieriksee"
+    },
+    {
+        "date": ["1250-04-27"],
+        "place": "Diest"
+    },
+    {
+        "date": ["1250-05-04"],
+        "place": "Lüttich"
+    },
+    {
+        "date": ["1250-05-09", "1250-05-19"],
+        "place": "Brüssel"
+    },
+    {
+        "date": ["1250-05-28"],
+        "place": "Middelburg"
+    },
+    {
+        "date": ["1250-06-09"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1250-06-24", "1250-07-01"],
+        "place": "Boppard",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1250-07-21"],
+        "place": "Oppenheim",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1250-08-03", "1250-08-05"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1250-10-02"],
+        "place": "Gelnhausen",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1250-10-31"],
+        "place": "Aachen"
+    },
+    {
+        "date": ["1250-11-27"],
+        "place": "Mons"
+    },
+    {
+        "date": ["1251-01-16", "1251-02-20"],
+        "place": "Middelburg"
+    },
+    {
+        "date": ["1251-03-17"],
+        "place": "Utrecht"
+    },
+    {
+        "date": ["1251-04-16", "1251-04-17"],
+        "place": "Lyon"
+    },
+    {
+        "date": ["1251-04-22", "1251-04-23"],
+        "place": "Salins-les-Bains"
+    },
+    {
+        "date": ["1251-05-12"],
+        "place": "Straßburg"
+    },
+    {
+        "date": ["1251-06-03"],
+        "place": "Straßburg"
+    },
+    {
+        "date": ["1251-06-17", "1251-06-19"],
+        "place": "Neuß"
+    },
+    {
+        "date": ["1251-06-20"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1251-06-24"],
+        "place": "Ehrebreitstein"
+    },
+    {
+        "date": ["1251-07-21"],
+        "place": "Bingen"
+    },
+    {
+        "date": ["1251-07-31"],
+        "place": "Ehrebreitstein"
+    },
+    {
+        "date": ["1251-08-21"],
+        "place": "Pleitzenheim",
+        "comment": "im Feldlager."
+    },
+    {
+        "date": ["1251-08-27", "1251-08-28"],
+        "place": "Boppard",
+        "comment": "im Feldlager."
+    },
+    {
+        "date": ["1251-11-06"],
+        "place": "Erbenheim",
+        "comment": "im Feldlager."
+    },
+    {
+        "date": ["1251-11-15"],
+        "place": "Scharfenstein"
+    },
+    {
+        "date": ["1251-12-15"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1252-01-09"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1252-01-23"],
+        "place": "Helmarshausen"
+    },
+    {
+        "date": ["1252-01-26", "1252-04-03"],
+        "place": "Braunschweig"
+    },
+    {
+        "date": ["1252-04-06"],
+        "place": "Goslar"
+    },
+    {
+        "date": ["1252-04-07", "1252-04-16"],
+        "place": "Halle"
+    },
+    {
+        "date": ["1252-04-20"],
+        "place": "Wolmirstadt"
+    },
+    {
+        "date": ["1252-04-24", "1252-05-02"],
+        "place": "Braunschweig"
+    },
+    {
+        "date": ["1252-05-07"],
+        "place": "Gandersheim"
+    },
+    {
+        "date": ["1252-05-09"],
+        "place": "Waldeck"
+    },
+    {
+        "date": ["1252-05-22"],
+        "place": "Maastricht"
+    },
+    {
+        "date": ["1252-06-11", "1252-06-12"],
+        "place": "Antwerpen"
+    },
+    {
+        "date": ["1252-06-17", "1252-06-18"],
+        "place": "Utrecht"
+    },
+    {
+        "date": ["1252-06-23"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1252-06-26"],
+        "place": "Koblenz"
+    },
+    {
+        "date": ["1252-07-03"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1252-07-11", "1252-07-13"],
+        "place": "Frankfurt",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1252-07-15"],
+        "place": "Mainz",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1252-07-21"],
+        "place": "Lorchhausen",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1252-08-04", "1252-08-31"],
+        "place": "Kaub",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1252-09-17"],
+        "place": "Friedberg"
+    },
+    {
+        "date": ["1252-09-20"],
+        "place": "Nied"
+    },
+    {
+        "date": ["1252-09-20"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1252-10-05", "1252-10-10"],
+        "place": "Frankfurt",
+        "comment": "im Feldlager."
+    },
+    {
+        "date": ["1252-10-25", "1252-11-02"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1252-10-21", "1252-11-27"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1252-10-25", "1252-11-02"],
+        "place": "Stadtlengsfeld"
+    },
+    {
+        "date": ["1252-12-13"],
+        "place": "Eisenach"
+    },
+    {
+        "date": ["1253-01-07"],
+        "place": "Goslar"
+    },
+    {
+        "date": ["1253-01-13", "1253-01-22"],
+        "place": "Braunschweig"
+    },
+    {
+        "date": ["1253-01-27", "1253-02-03"],
+        "place": "Lüneburg"
+    },
+    {
+        "date": ["1253-02-06", "1253-02-15"],
+        "place": "Braunschweig"
+    },
+    {
+        "date": ["1253-03-05", "1253-03-06"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1253-03-09"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1253-03-23"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1253-04-03"],
+        "place": "Utrecht"
+    },
+    {
+        "date": ["1253-04-26"],
+        "place": "Antwerpen"
+    },
+    {
+        "date": ["1253-05-25"],
+        "place": "Den Haag"
+    },
+    {
+        "date": ["1253-08-12", "1253-08-13"],
+        "place": "Utrecht"
+    },
+    {
+        "date": ["1253-08-21", "1253-08-22"],
+        "place": "Leiden"
+    },
+    {
+        "date": ["1253-09-21"],
+        "place": "Aalbertsberg"
+    },
+    {
+        "date": ["1253-11-18"],
+        "place": "Leiden"
+    },
+    {
+        "date": ["1253-12-16"],
+        "place": "Renesse"
+    },
+    {
+        "date": ["1253-12-26"],
+        "place": "Antwerpen"
+    },
+    {
+        "date": ["1254-01-08"],
+        "place": "Antwerpen"
+    },
+    {
+        "date": ["1254-01-09"],
+        "place": "Reimerswaal"
+    },
+    {
+        "date": ["1254-02-12", "1254-02-14"],
+        "place": "Mechelen"
+    },
+    {
+        "date": ["1254-02-25"],
+        "place": "Middelburg"
+    },
+    {
+        "date": ["1254-03-11"],
+        "place": "Dordrecht"
+    },
+    {
+        "date": ["1254-03-17"],
+        "place": "Den Haag"
+    },
+    {
+        "date": ["1254-06-01"],
+        "place": "Nijmwegen"
+    },
+    {
+        "date": ["1254-06-11"],
+        "place": "Leiden"
+    },
+    {
+        "date": ["1254-07-19"],
+        "place": "Strijpen",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1254-07-02"],
+        "place": "Brüssel",
+        "comment": "Im Feldlager."
+    },
+    {
+        "date": ["1254-07-26"],
+        "place": "Le Quesnoy"
+    },
+    {
+        "date": ["1254-07-30", "1254-08-11"],
+        "place": "Leiden"
+    },
+    {
+        "date": ["1254-09-12"],
+        "place": "Den Haag"
+    },
+    {
+        "date": ["1254-10-10"],
+        "place": "Zieriksee"
+    },
+    {
+        "date": ["1254-10-13", "1254-10-14"],
+        "place": "Den Haag"
+    },
+    {
+        "date": ["1254-10-29", "1254-11-02"],
+        "place": "Egmont"
+    },
+    {
+        "date": ["1254-11-04"],
+        "place": "Aalbertsberg"
+    },
+    {
+        "date": ["1254-12-22"],
+        "place": "Arnheim"
+    },
+    {
+        "date": ["1255-01-03", "1255-01-10"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1255-01-31"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1255-02-02", "1255-02-09"],
+        "place": "Worms"
+    },
+    {
+        "date": ["1255-02-13", "1255-02-25"],
+        "place": "Speyer"
+    },
+    {
+        "date": ["1255-03-01", "1255-03-02"],
+        "place": "Weißenburg"
+    },
+    {
+        "date": ["1255-03-05", "1255-03-10"],
+        "place": "Hagenau"
+    },
+    {
+        "date": ["1255-03-12"],
+        "place": "Speyer"
+    },
+    {
+        "date": ["1255-03-16"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1255-03-18", "1255-03-20"],
+        "place": "Gelnhausen"
+    },
+    {
+        "date": ["1255-03-20"],
+        "place": "Friedberg"
+    },
+    {
+        "date": ["1255-03-21"],
+        "place": "Wetzlar"
+    },
+    {
+        "date": ["1255-03-23"],
+        "place": "Boppard"
+    },
+    {
+        "date": ["1255-03-25"],
+        "place": "Hammerstein"
+    },
+    {
+        "date": ["1255-03-27"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1255-04-29"],
+        "place": "Zieriksee"
+    },
+    {
+        "date": ["1255-05-17"],
+        "place": "Aalbertsberg"
+    },
+    {
+        "date": ["1255-05-23", "1255-05-27"],
+        "place": "Antwerpen"
+    },
+    {
+        "date": ["1255-06-21"],
+        "place": "Aalbertsberg"
+    },
+    {
+        "date": ["1255-07-20", "1255-07-27"],
+        "place": "Aalbertsberg"
+    },
+    {
+        "date": ["1255-07-27"],
+        "place": "Egmont"
+    },
+    {
+        "date": ["1255-08-28"],
+        "place": "Dordrecht"
+    },
+    {
+        "date": ["1255-09-10"],
+        "place": "Kaiserwerth"
+    },
+    {
+        "date": ["1255-09-22"],
+        "place": "Egmont"
+    },
+    {
+        "date": ["1255-09-30"],
+        "place": "Leiden"
+    },
+    {
+        "date": ["1255-10-03"],
+        "place": "Berne"
+    },
+    {
+        "date": ["1255-10-11"],
+        "place": "Leiden"
+    },
+    {
+        "date": ["1255-10-26"],
+        "place": "Zülpich"
+    },
+    {
+        "date": ["1255-11-03"],
+        "place": "Wesel"
+    },
+    {
+        "date": ["1255-11-04"],
+        "place": "Boppard"
+    },
+    {
+        "date": ["1255-11-05", "1255-11-07"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1255-11-09", "1255-11-10"],
+        "place": "Oppenheim"
+    },
+    {
+        "date": ["1255-11-17"],
+        "place": "Maastricht"
+    },
+    {
+        "date": ["1255-12-13"],
+        "place": "Köln"
+    },
+    {
+        "date": ["1256-01-28"],
+        "place": "Hoogwoud",
+        "comment": "Tod."
+    }
+]

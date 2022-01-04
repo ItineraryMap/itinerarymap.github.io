@@ -1,0 +1,375 @@
+[
+	{
+        "date": ["1400-08-21"],
+        "place": "Rhens",
+        "comment": "Erhebung zum König durch rheinische Kurfürsten."
+    },
+    {
+        "date": ["1400-11-03"],
+        "place": "Worms"
+    },
+    {
+        "date": ["1400-11-29"],
+        "place": "Straßburg"
+    },
+    {
+        "date": ["1400-12-04", "1400-12-05"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1400-12-10"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1400-12-26"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1401-01-06"],
+        "place": "Köln",
+        "comment": "Königskrönung, weil Aachen Ruprecht die Huldigung verweigert."
+    },
+    {
+        "date": ["1401-01-17"],
+        "place": "Marburg"
+    },
+    {
+        "date": ["1401-01-25"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1401-02-20"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1401-03-17"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1401-05-13"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1401-06-23"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1401-07-26", "1401-08-07"],
+        "place": "Heidelberg",
+        "comment": "Bis im August"
+    },
+    {
+        "date": ["1401-08-14", "1401-08-15"],
+        "place": "Augsburg"
+    },
+    {
+        "date": ["1401-08-14", "1401-08-15"],
+        "place": "Augsburg"
+    },
+    {
+        "date": ["1401-08-9"],
+        "place": "Weißenburg"
+    },
+    {
+        "date": ["1401-10-24"],
+        "place": "Brescia",
+        "comment": "Niederlage gegen den mit Wenzel verbündeten Herzog von Mailand; Rückzug nach Padua."
+    },
+    {
+        "date": ["1401-12-16", "1402-01-23"],
+        "place": "Venedig"
+    },
+    {
+        "date": ["1402-03-08"],
+        "place": "Padua"
+    },
+    {
+        "date": ["1402-05-29"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1402-06-02"],
+        "place": "Amberg"
+    },
+    {
+        "date": ["1402-10-04"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1402-11-27"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1402-12-15"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1403-01-05"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1403-02-03"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1403-02-06"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1403-03-02"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1403-03-28"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1403-04-17"],
+        "place": "Scharrhof"
+    },
+    {
+        "date": ["1403-04-21"],
+        "place": "Bacharach"
+    },
+    {
+        "date": ["1403-05-05"],
+        "place": "Worms"
+    },
+    {
+        "date": ["1403-05-28"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1403-05-21"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1403-06-19"],
+        "place": "Weinheim"
+    },
+    {
+        "date": ["1403-08-17"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1403-08-31"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1403-11-05", "1403-11-11"],
+        "place": "Germersheim"
+    },
+    {
+        "date": ["1404-01-23"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1404-02-10", "1404-02-28"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1404-04-29", "1404-05-02"],
+        "place": "Germersheim"
+    },
+    {
+        "date": ["1404-11-08"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1404-11-26"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1404-12-13"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1405-01-03", "1405-02-13"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1405-02-21"],
+        "place": "Rückingen"
+    },
+    {
+        "date": ["1405-02-26"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1405-03-10"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1405-04-09"],
+        "place": "Germersheim"
+    },
+    {
+        "date": ["1405-05-05"],
+        "place": "Alzey"
+    },
+    {
+        "date": ["1405-05-18"],
+        "place": "Sachsenhausen bei Frankfurt"
+    },
+    {
+        "date": ["1405-05-21"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1405-06-24"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1405-07-16"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1405-12-15"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1406-01"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1406-03-13"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1406-05-03"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1406-06-14"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1406-08-24"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1406-09-03"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1406-11-18"],
+        "place": "Schweinfurt"
+    },
+    {
+        "date": ["1406-12-14"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1407-01-30"],
+        "place": "Speyer"
+    },
+    {
+        "date": ["1407-02-03"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1407-02-28"],
+        "place": "Hemsbach"
+    },
+    {
+        "date": ["1407-04-14"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1407-04-24"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1407-06-22", "1407-08-02"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1407-09-05"],
+        "place": "Wiesloch"
+    },
+    {
+        "date": ["1407-11-21"],
+        "place": "Alzey"
+    },
+    {
+        "date": ["1408-02-22", "1408-03-02"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1408-03", "1408-04"],
+        "place": "Konstanz"
+    },
+    {
+        "date": ["1408-04-16"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1408-05-07"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1408-07-04"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1408-09-14"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1408-10-12"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1408-10-29", "1408-10-30"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1409-02-03"],
+        "place": "Sachsenhausen bei Frankfurt"
+    },
+    {
+        "date": ["1409-03-05"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-04-22"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-06-15"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-07-24"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-10-04"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-10-23"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-10-28"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1409-11-25"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1410-01-21"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1410-03-02"],
+        "place": "Heidelberg"
+    },
+    {
+        "date": ["1410-05-18"],
+        "place": "Oppenheim",
+        "comment": "Ruprecht verstirbt plötzlich auf Schloss Landskron bei Oppenheim."
+    }
+]

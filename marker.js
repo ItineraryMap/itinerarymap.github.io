@@ -77,6 +77,9 @@ class Waypoint extends Marker {
     }
 
     addStats() {
+        if (!this.figure.countDays) {
+            return;
+        }
         if (this.statsAdded) {
             return;
         }
@@ -101,11 +104,19 @@ class Waypoint extends Marker {
     }
 
     getWidth() {
-        return 25 * (0.25 + this.days / this.figure.maxDays);
+        if (this.figure.countDays) {
+            return 25 * (0.25 + this.days / this.figure.maxDays);
+        } else {
+            return 25;
+        }
     }
 
     getHeight() {
-        return 30 * (0.25 + this.days / this.figure.maxDays);
+        if (this.figure.countDays) {
+            return 30 * (0.25 + this.days / this.figure.maxDays);
+        } else {
+            return 30;
+        }
     }
 
 }

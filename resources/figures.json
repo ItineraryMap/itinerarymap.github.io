@@ -12,7 +12,8 @@
         "coatOfArms": "2/21/Thuringia",
         "db": "pnd118883690",
         "yearAsOf": 1246,
-        "yearUntil": 1247
+        "yearUntil": 1247,
+        "countDays": false
     },
     {
         "id": "wilhelm-holland",
@@ -27,7 +28,8 @@
         "coatOfArms": "3/39/Holland",
         "db": "sfz75117",
         "yearAsOf": 1247,
-        "yearUntil": 1255
+        "yearUntil": 1255,
+        "countDays": true
     },
     {
         "id": "alfons-kastilien",
@@ -42,7 +44,8 @@
         "coatOfArms": "f/f3/Ferdinand_III_of_Castile",
         "db": "sfz655",
         "yearAsOf": 1256,
-        "yearUntil": 1275
+        "yearUntil": 1275,
+        "countDays": false
     },
     {
         "id": "richard-cornwall",
@@ -57,7 +60,8 @@
         "coatOfArms": "e/ee/De_Cornwall",
         "db": "sfz74612",
         "yearAsOf": 1257,
-        "yearUntil": 1269
+        "yearUntil": 1269,
+        "countDays": false
     },
     {
         "id": "rudolf-i-hrr",
@@ -72,7 +76,8 @@
         "coatOfArms": "a/a1/HRE-Habsburg",
         "db": "sfz74667",
         "yearAsOf": 1273,
-        "yearUntil": 1291
+        "yearUntil": 1291,
+        "countDays": false
     },
     {
         "id": "wenzel-hrr",
@@ -87,7 +92,8 @@
         "coatOfArms": "e/ed/HRE_Luxembourg_Bohemia",
         "db": "sfz56435",
         "yearAsOf": 1376,
-        "yearUntil": 1400
+        "yearUntil": 1400,
+        "countDays": true
     },
     {
         "id": "ruprecht-hrr",
@@ -102,7 +108,8 @@
         "coatOfArms": "a/ab/HRE_Rupert_of_Wittelsbach",
         "db": "sfz74680",
         "yearAsOf": 1400,
-        "yearUntil": 1410
+        "yearUntil": 1410,
+        "countDays": true
     },
 	{
         "id": "sigismund-hrr",
@@ -117,6 +124,7 @@
         "coatOfArms": "9/9d/HRE_Sigismund",
         "db": "sfz56308",
         "yearAsOf": 1410,
-        "yearUntil": 1437
+        "yearUntil": 1437,
+        "countDays": true
     }
 ]

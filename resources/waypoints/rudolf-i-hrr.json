@@ -1,0 +1,264 @@
+[
+	{
+        "date": ["1273-10-01"],
+        "place": "Dieburg",
+        "comment": "Königswahl"
+    },
+    {
+        "date": ["1273-10-02"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1273-10-26"],
+        "place": "Aachen",
+        "comment": "Krönung zum König und Doppelhochzeit der Töchter Mathilde und Agnes"
+    },
+    {
+        "date": ["1273-12-07"],
+        "place": "Speyer"
+    },
+    {
+        "date": ["1273-12-29"],
+        "place": "Hagenau"
+    },
+    {
+        "date": ["1274-01-13", "1274-01-21"],
+        "place": "Basel",
+        "comment": "Etwa Hälfte der Zeit; sonst in Zürich"
+    },
+    {
+        "date": ["1274-01-13", "1274-01-21"],
+        "place": "Zürich",
+        "comment": "Etwa Hälfte der Zeit; sonst in Basel"
+    },
+    {
+        "date": ["1274-03-29", "1274-03-30"],
+        "place": "Würzburg"
+    },
+    {
+        "date": ["1274"],
+        "place": "Ulm",
+        "comment": "Ostern"
+    },
+    {
+        "date": ["1274-04-21"],
+        "place": "Rothenburg"
+    },
+    {
+        "date": ["1274"],
+        "place": "Hagenau",
+        "comment": "Pfingsten bis Mitte November"
+    },
+    {
+        "date": ["1274-11", "1274-12"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1275-01"],
+        "place": "Würzburg"
+    },
+    {
+        "date": ["1275-03"],
+        "place": "Speyer"
+    },
+    {
+        "date": ["1275-05"],
+        "place": "Augsburg"
+    },
+    {
+        "date": ["1275-11-12"],
+        "place": "Basel"
+    },
+    {
+        "date": ["1275"],
+        "place": "Maulbronn",
+        "comment": "Weihnachtsfest"
+    },
+    {
+        "date": ["1276"],
+        "place": "Mainz",
+        "comment": "Osterfest"
+    },
+    {
+        "date": ["1276"],
+        "place": "Hagenau",
+        "comment": "Pfingstfest"
+    },
+    {
+        "date": ["1276-11-30", "1281-05"],
+        "place": "Wien",
+        "comment": "Insgesamt 3 3/4 Jahre"
+    },
+    {
+        "date": ["1278-01-07"],
+        "place": "Dürnkrut",
+        "comment": "Sieg über Ottokar"
+    },
+    {
+        "date": ["1281-07", "1281-08"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1281-12"],
+        "place": "Augsburg"
+    },
+    {
+        "date": ["1282-03-12"],
+        "place": "Mainz"
+    },
+    {
+        "date": ["1282"],
+        "place": "Oppenheim",
+        "comment": "Osterfest"
+    },
+    {
+        "date": ["1282"],
+        "place": "Ulm",
+        "comment": "Pfingsten"
+    },
+    {
+        "date": ["1282-05"],
+        "place": "Ulm"
+    },
+    {
+        "date": ["1282-09"],
+        "place": "Boppard"
+    },
+    {
+        "date": ["1282-12"],
+        "place": "Augsburg",
+        "comment": "12.: Belehnung seiner Söhne mit Steiermark & Österreich"
+    },
+    {
+        "date": ["1283-02-12"],
+        "place": "Basel"
+    },
+    {
+        "date": ["1283-03-11"],
+        "place": "Basel"
+    },
+    {
+        "date": ["1283"],
+        "place": "Puntrut",
+        "comment": "Ostern; im Feldlager"
+    },
+    {
+        "date": ["1283-01-07"],
+        "place": "Peterlingen",
+        "comment": "Weihnachten; im Feldlager"
+    },
+    {
+        "date": ["1284-02"],
+        "place": "Remiremont",
+        "comment": "Hochzeit mit Isabelle von Burgund"
+    },
+    {
+        "date": ["1284-04-03", "1284-04-22"],
+        "place": "Freiburg",
+        "comment": "Osterfest"
+    },
+    {
+        "date": ["1284"],
+        "place": "Freiburg",
+        "comment": "Pfingstfest"
+    },
+    {
+        "date": ["1284-06-03", "1284-06-05"],
+        "place": "Freiburg im Üchtland"
+    },
+    {
+        "date": ["1284-06", "1284-07"],
+        "place": "Basel"
+    },
+    {
+        "date": ["1285-03", "1285-04"],
+        "place": "Nürnberg"
+    },
+    {
+        "date": ["1285-10-18", "1285-10-29"],
+        "place": "Luzern"
+    },
+    {
+        "date": ["1286-01-24", "1286-01-27"],
+        "place": "Augsburg"
+    },
+    {
+        "date": ["1286-02-01", "1286-02-06"],
+        "place": "Augsburg"
+    },
+    {
+        "date": ["1286"],
+        "place": "Lauterberg",
+        "comment": "Ostern; im Feldlager"
+    },
+    {
+        "date": ["1286-06"],
+        "place": "Ulm"
+    },
+    {
+        "date": ["1286-09-23", "1286-11-11"],
+        "place": "Stuttgart",
+        "comment": "Belagerung"
+    },
+    {
+        "date": ["1286-12"],
+        "place": "Rottweil"
+    },
+    {
+        "date": ["1287-03", "1287-04"],
+        "place": "Würzburg"
+    },
+    {
+        "date": ["1288-03-28", "1288-04-04"],
+        "place": "Colmar"
+    },
+    {
+        "date": ["1288-04-12", "1288-04-19"],
+        "place": "Basel"
+    },
+    {
+        "date": ["1288"],
+        "place": "Konstanz",
+        "comment": "Pfingstfest"
+    },
+    {
+        "date": ["1288"],
+        "place": "Speyer",
+        "comment": "Weihnachtsfest"
+    },
+    {
+        "date": ["1289-02", "1289-03"],
+        "place": "Eger"
+    },
+    {
+        "date": ["1289-09-20", "1289-09-25"],
+        "place": "Basel"
+    },
+    {
+        "date": ["1289-11", "1290-08"],
+        "place": "Erfurt",
+        "comment": "10 Monate Ende '89 bis Mitte '90"
+    },
+    {
+        "date": ["1291-01-07"],
+        "place": "Basel",
+        "comment": "Osterfest"
+    },
+    {
+        "date": ["1291-04"],
+        "place": "Speyer"
+    },
+    {
+        "date": ["1291-05"],
+        "place": "Murten"
+    },
+    {
+        "date": ["1291-05"],
+        "place": "Frankfurt"
+    },
+    {
+        "date": ["1291-07-14", "1291-07-15"],
+        "place": "Speyer",
+        "comment": "Hier verstarb König Rudolf im Alter von 73 Jahren."
+    }
+]
