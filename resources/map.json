@@ -7,6 +7,18 @@
             "y": 0.387
         },
         {
+            "name": "Königshof",
+            "level": 0,
+            "x": 0.415,
+            "y": 0.3885
+        },
+        {
+            "name": "Forchheim",
+            "level": 0,
+            "x": 0.415,
+            "y": 0.383
+        },
+        {
             "name": "Cadolzburg",
             "level": 0,
             "x": 0.412,
@@ -25,6 +37,66 @@
             "y": 0.381
         },
         {
+            "name": "Zeilitzheim",
+            "level": 0,
+            "x": 0.392,
+            "y": 0.38
+        },
+        {
+            "name": "Schweinfurt",
+            "level": 0,
+            "x": 0.391,
+            "y": 0.376
+        },
+        {
+            "name": "Würzburg",
+            "level": 1,
+            "x": 0.385,
+            "y": 0.380
+        },
+        {
+            "name": "Veitshöchheim",
+            "level": 0,
+            "x": 0.383,
+            "y": 0.378
+        },
+        {
+            "name": "Minden",
+            "level": 0,
+            "x": 0.366,
+            "y": 0.338
+        },
+        {
+            "name": "Eisenach",
+            "level": 0,
+            "x": 0.391,
+            "y": 0.361
+        },
+        {
+            "name": "Erfurt",
+            "level": 0,
+            "x": 0.415,
+            "y": 0.361
+        },
+        {
+            "name": "Lauterberg",
+            "level": 0,
+            "x": 0.3895,
+            "y": 0.35
+        },
+        {
+            "name": "Stadtlengsfeld",
+            "level": 0,
+            "x": 0.387,
+            "y": 0.365
+        },
+        {
+            "name": "Wartburg",
+            "level": 0,
+            "x": 0.39,
+            "y": 0.363
+        },
+        {
             "name": "Eger",
             "level": 0,
             "x": 0.429,
@@ -35,6 +107,12 @@
             "level": 1,
             "x": 0.463,
             "y": 0.377
+        },
+        {
+            "name": "Karlstein",
+            "level": 0,
+            "x": 0.46,
+            "y": 0.378
         },
         {
             "name": "Beneschau",
@@ -187,6 +265,12 @@
             "y": 0.378
         },
         {
+            "name": "Bürglitz",
+            "level": 0,
+            "x": 0.493,
+            "y": 0.372
+        },
+        {
             "name": "Kunratitz",
             "level": 0,
             "x": 0.492,
@@ -249,7 +333,37 @@
         {
             "name": "Pilsen",
             "level": 0,
-            "x": 0.45,
+            "x": 0.448,
+            "y": 0.383
+        },
+        {
+            "name": "Taus",
+            "level": 0,
+            "x": 0.436,
+            "y": 0.388
+        },
+        {
+            "name": "Pisek",
+            "level": 0,
+            "x": 0.458,
+            "y": 0.391
+        },
+        {
+            "name": "Budweis",
+            "level": 0,
+            "x": 0.464,
+            "y": 0.396
+        },
+        {
+            "name": "Beraun",
+            "level": 0,
+            "x": 0.456,
+            "y": 0.38
+        },
+        {
+            "name": "Bettlern",
+            "level": 0,
+            "x": 0.453,
             "y": 0.383
         },
         {
@@ -343,6 +457,12 @@
             "y": 0.455
         },
         {
+            "name": "Padua",
+            "level": 1,
+            "x": 0.42,
+            "y": 0.455
+        },
+        {
             "name": "Genua",
             "level": 2,
             "x": 0.365,
@@ -355,10 +475,178 @@
             "y": 0.39
         },
         {
+            "name": "Wiesloch",
+            "level": 0,
+            "x": 0.363,
+            "y": 0.391
+        },
+        {
+            "name": "Germersheim",
+            "level": 0,
+            "x": 0.357,
+            "y": 0.391
+        },
+        {
             "name": "Köln",
             "level": 1,
             "x": 0.33,
             "y": 0.36
+        },
+        {
+            "name": "Neuß",
+            "level": 0,
+            "x": 0.327,
+            "y": 0.355
+        },
+        {
+            "name": "Wesel",
+            "level": 0,
+            "x": 0.328,
+            "y": 0.35
+        },
+        {
+            "name": "Kaiserwerth",
+            "level": 0,
+            "x": 0.33,
+            "y": 0.353
+        },
+        {
+            "name": "Antwerpen",
+            "level": 1,
+            "x": 0.288,
+            "y": 0.356
+        },
+        {
+            "name": "Mechelen",
+            "level": 0,
+            "x": 0.29,
+            "y": 0.36
+        },
+        {
+            "name": "Brügge",
+            "level": 1,
+            "x": 0.268,
+            "y": 0.358
+        },
+        {
+            "name": "Gent",
+            "level": 1,
+            "x": 0.272,
+            "y": 0.362
+        },
+        {
+            "name": "Den Haag",
+            "level": 1,
+            "x": 0.288,
+            "y": 0.343
+        },
+        {
+            "name": "Dordrecht",
+            "level": 0,
+            "x": 0.285,
+            "y": 0.348
+        },
+        {
+            "name": "s Gravenzande",
+            "level": 0,
+            "x": 0.285,
+            "y": 0.343
+        },
+        {
+            "name": "Leiden",
+            "level": 1,
+            "x": 0.292,
+            "y": 0.34
+        },
+        {
+            "name": "Haarlem",
+            "level": 0,
+            "x": 0.293,
+            "y": 0.335
+        },
+        {
+            "name": "Egmond",
+            "level": 0,
+            "x": 0.294,
+            "y": 0.331
+        },
+        {
+            "name": "Hoogwoud",
+            "level": 0,
+            "x": 0.298,
+            "y": 0.33
+        },
+        {
+            "name": "Utrecht",
+            "level": 1,
+            "x": 0.303,
+            "y": 0.341
+        },
+        {
+            "name": "Rijnsburg",
+            "level": 0,
+            "x": 0.291,
+            "y": 0.338
+        },
+        {
+            "name": "Zieriksee",
+            "level": 0,
+            "x": 0.28,
+            "y": 0.35
+        },
+        {
+            "name": "Renesse",
+            "level": 0,
+            "x": 0.278,
+            "y": 0.348
+        },
+        {
+            "name": "Reimerswaal",
+            "level": 0,
+            "x": 0.282,
+            "y": 0.352
+        },
+        {
+            "name": "Middelburg",
+            "level": 0,
+            "x": 0.276,
+            "y": 0.3515
+        },
+        {
+            "name": "Brüssel",
+            "level": 1,
+            "x": 0.288,
+            "y": 0.365
+        },
+        {
+            "name": "Strijpen",
+            "level": 0,
+            "x": 0.281,
+            "y": 0.366
+        },
+        {
+            "name": "Mons",
+            "level": 0,
+            "x": 0.283,
+            "y": 0.375
+        },
+        {
+            "name": "Le Quesnoy",
+            "level": 0,
+            "x": 0.28,
+            "y": 0.378
+        },
+        {
+            "name": "Cambrai",
+            "level": 0,
+            "x": 0.274,
+            "y": 0.38
+        },
+        {
+            "name": "Löwen",
+            "level": 0,
+            "x": 0.292,
+            "y": 0.363
         },
         {
             "name": "Brandenburg",
@@ -395,6 +683,12 @@
             "level": 2,
             "x": 0.255,
             "y": 0.3975
+        },
+        {
+            "name": "Reims",
+            "level": 1,
+            "x": 0.286,
+            "y": 0.391
         },
         {
             "name": "Ofen",
@@ -805,6 +1099,12 @@
             "y": 0.447
         },
         {
+            "name": "Brescia",
+            "level": 1,
+            "x": 0.388,
+            "y": 0.444
+        },
+        {
             "name": "Lodi",
             "level": 0,
             "x": 0.383,
@@ -859,10 +1159,28 @@
             "y": 0.434
         },
         {
+            "name": "Murten",
+            "level": 0,
+            "x": 0.336,
+            "y": 0.43
+        },
+        {
+            "name": "Peterlingen",
+            "level": 0,
+            "x": 0.332,
+            "y": 0.434
+        },
+        {
             "name": "Basel",
             "level": 0,
             "x": 0.343,
             "y": 0.421
+        },
+        {
+            "name": "Puntrut",
+            "level": 0,
+            "x": 0.335,
+            "y": 0.422
         },
         {
             "name": "Schaffhausen",
@@ -875,6 +1193,12 @@
             "level": 1,
             "x": 0.363,
             "y": 0.423
+        },
+        {
+            "name": "Luzern",
+            "level": 0,
+            "x": 0.355,
+            "y": 0.428
         },
         {
             "name": "Brugg",
@@ -913,6 +1237,12 @@
             "y": 0.455
         },
         {
+            "name": "Salins-les-Bains",
+            "level": 0,
+            "x": 0.317,
+            "y": 0.433
+        },
+        {
             "name": "Valence",
             "level": 0,
             "x": 0.297,
@@ -931,6 +1261,12 @@
             "y": 0.48
         },
         {
+            "name": "Beaucaire",
+            "level": 0,
+            "x": 0.294,
+            "y": 0.483
+        },
+        {
             "name": "Straßburg",
             "level": 0,
             "x": 0.347,
@@ -943,15 +1279,51 @@
             "y": 0.41
         },
         {
+            "name": "Freiburg",
+            "level": 0,
+            "x": 0.347,
+            "y": 0.412
+        },
+        {
+            "name": "Gundelfingen",
+            "level": 0,
+            "x": 0.348,
+            "y": 0.411
+        },
+        {
+            "name": "Remiremont",
+            "level": 0,
+            "x": 0.33,
+            "y": 0.414
+        },
+        {
             "name": "Baden",
             "level": 0,
             "x": 0.355,
             "y": 0.397
         },
         {
+            "name": "Hagenau",
+            "level": 0,
+            "x": 0.35,
+            "y": 0.397
+        },
+        {
             "name": "Karlsruhe",
             "level": 0,
             "x": 0.358,
+            "y": 0.394
+        },
+        {
+            "name": "Maulbronn",
+            "level": 0,
+            "x": 0.366,
+            "y": 0.393
+        },
+        {
+            "name": "Weißenburg",
+            "level": 0,
+            "x": 0.353,
             "y": 0.394
         },
         {
@@ -963,8 +1335,8 @@
         {
             "name": "Rottenburg am Neckar",
             "level": 0,
-            "x": 0.367,
-            "y": 0.405
+            "x": 0.362,
+            "y": 0.402
         },
         {
             "name": "Rottweil",
@@ -975,8 +1347,8 @@
         {
             "name": "Balingen",
             "level": 0,
-            "x": 0.361,
-            "y": 0.404
+            "x": 0.363,
+            "y": 0.405
         },
         {
             "name": "Villingen",
@@ -1051,6 +1423,12 @@
             "y": 0.39
         },
         {
+            "name": "Amberg",
+            "level": 0,
+            "x": 0.425,
+            "y": 0.387
+        },
+        {
             "name": "Passau",
             "level": 0,
             "x": 0.443,
@@ -1073,6 +1451,12 @@
             "level": 1,
             "x": 0.494,
             "y": 0.408
+        },
+        {
+            "name": "Dürnkrut",
+            "level": 0,
+            "x": 0.503,
+            "y": 0.401
         },
         {
             "name": "Korneuburg",
@@ -1123,10 +1507,106 @@
             "y": 0.384
         },
         {
-            "name": "Mainz",
+            "name": "Alzey",
             "level": 0,
+            "x": 0.356,
+            "y": 0.3825
+        },
+        {
+            "name": "Oppenheim",
+            "level": 0,
+            "x": 0.357,
+            "y": 0.381
+        },
+        {
+            "name": "Mainz",
+            "level": 1,
             "x": 0.355,
             "y": 0.379
+        },
+        {
+            "name": "Erbenheim",
+            "level": 0,
+            "x": 0.358,
+            "y": 0.377
+        },
+        {
+            "name": "Helmarshausen",
+            "level": 0,
+            "x": 0.377,
+            "y": 0.351
+        },
+        {
+            "name": "Braunschweig",
+            "level": 1,
+            "x": 0.391,
+            "y": 0.337
+        },
+        {
+            "name": "Lüneburg",
+            "level": 0,
+            "x": 0.389,
+            "y": 0.323
+        },
+        {
+            "name": "Wolmirstedt",
+            "level": 0,
+            "x": 0.415,
+            "y": 0.339
+        },
+        {
+            "name": "Halle",
+            "level": 0,
+            "x": 0.361,
+            "y": 0.342
+        },
+        {
+            "name": "Lemgo",
+            "level": 0,
+            "x": 0.365,
+            "y": 0.3425
+        },
+        {
+            "name": "Waldeck",
+            "level": 0,
+            "x": 0.366,
+            "y": 0.359
+        },
+        {
+            "name": "Goslar",
+            "level": 0,
+            "x": 0.3885,
+            "y": 0.343
+        },
+        {
+            "name": "Gandersheim",
+            "level": 0,
+            "x": 0.383,
+            "y": 0.344
+        },
+        {
+            "name": "Ingelheim",
+            "level": 0,
+            "x": 0.352,
+            "y": 0.38
+        },
+        {
+            "name": "Bingen",
+            "level": 0,
+            "x": 0.348,
+            "y": 0.379
+        },
+        {
+            "name": "Lorchhausen",
+            "level": 0,
+            "x": 0.348,
+            "y": 0.3765
+        },
+        {
+            "name": "Kaub",
+            "level": 0,
+            "x": 0.3475,
+            "y": 0.3755
         },
         {
             "name": "Koblenz",
@@ -1135,10 +1615,82 @@
             "y": 0.3735
         },
         {
+            "name": "Rhens",
+            "level": 0,
+            "x": 0.344,
+            "y": 0.375
+        },
+        {
+            "name": "Boppard",
+            "level": 0,
+            "x": 0.345,
+            "y": 0.376
+        },
+        {
+            "name": "Ehrenbreitstein",
+            "level": 0,
+            "x": 0.345,
+            "y": 0.3725
+        },
+        {
+            "name": "Nassau",
+            "level": 0,
+            "x": 0.348,
+            "y": 0.374
+        },
+        {
+            "name": "Trechtingshausen",
+            "level": 0,
+            "x": 0.348,
+            "y": 0.379
+        },
+        {
+            "name": "Bacharach",
+            "level": 0,
+            "x": 0.347,
+            "y": 0.378
+        },
+        {
+            "name": "Bingen am Rhein",
+            "level": 0,
+            "x": 0.35,
+            "y": 0.38
+        },
+        {
+            "name": "Andernach",
+            "level": 0,
+            "x": 0.339,
+            "y": 0.37
+        },
+        {
+            "name": "Hammerstein",
+            "level": 0,
+            "x": 0.34,
+            "y": 0.368
+        },
+        {
+            "name": "Berne",
+            "level": 0,
+            "x": 0.359,
+            "y": 0.324
+        },
+        {
             "name": "Heidelberg",
             "level": 0,
             "x": 0.363,
             "y": 0.387
+        },
+        {
+            "name": "Weinheim",
+            "level": 0,
+            "x": 0.363,
+            "y": 0.384
+        },
+        {
+            "name": "Hemsbach",
+            "level": 0,
+            "x": 0.363,
+            "y": 0.383
         },
         {
             "name": "Rothenburg",
@@ -1147,10 +1699,22 @@
             "y": 0.387
         },
         {
+            "name": "Mergentheim",
+            "level": 0,
+            "x": 0.384,
+            "y": 0.385
+        },
+        {
             "name": "Heilbronn",
             "level": 0,
             "x": 0.37,
             "y": 0.392
+        },
+        {
+            "name": "Eberbach",
+            "level": 0,
+            "x": 0.368,
+            "y": 0.386
         },
         {
             "name": "Bonn",
@@ -1159,10 +1723,22 @@
             "y": 0.365
         },
         {
+            "name": "Zülpich",
+            "level": 0,
+            "x": 0.326,
+            "y": 0.367
+        },
+        {
             "name": "Aachen",
             "level": 1,
             "x": 0.317,
             "y": 0.363
+        },
+        {
+            "name": "Aalbertsberg",
+            "level": 0,
+            "x": 0.318,
+            "y": 0.362
         },
         {
             "name": "Luxemburg",
@@ -1171,16 +1747,64 @@
             "y": 0.385
         },
         {
+            "name": "Trier",
+            "level": 0,
+            "x": 0.325,
+            "y": 0.385
+        },
+        {
+            "name": "Scharrhof",
+            "level": 0,
+            "x": 0.34,
+            "y": 0.39
+        },
+        {
+            "name": "Dieburg",
+            "level": 0,
+            "x": 0.366,
+            "y": 0.38
+        },
+        {
             "name": "Frankfurt",
             "level": 1,
             "x": 0.364,
             "y": 0.375
         },
         {
+            "name": "Sachsenhausen bei Frankfurt",
+            "level": 0,
+            "x": 0.364,
+            "y": 0.377
+        },
+        {
+            "name": "Marburg",
+            "level": 0,
+            "x": 0.365,
+            "y": 0.363
+        },
+        {
+            "name": "Nied",
+            "level": 0,
+            "x": 0.362,
+            "y": 0.375
+        },
+        {
+            "name": "Friedberg",
+            "level": 0,
+            "x": 0.367,
+            "y": 0.371
+        },
+        {
             "name": "Gelnhausen",
             "level": 0,
             "x": 0.3725,
             "y": 0.374
+        },
+        {
+            "name": "Rückingen",
+            "level": 0,
+            "x": 0.37,
+            "y": 0.375
         },
         {
             "name": "Wetzlar",
@@ -1261,16 +1885,34 @@
             "y": 0.346
         },
         {
+            "name": "Arnheim",
+            "level": 0,
+            "x": 0.313,
+            "y": 0.343
+        },
+        {
             "name": "Maastricht",
             "level": 0,
             "x": 0.312,
             "y": 0.36
         },
         {
+            "name": "Diest",
+            "level": 0,
+            "x": 0.3,
+            "y": 0.36
+        },
+        {
+            "name": "Herzogenrath",
+            "level": 0,
+            "x": 0.317,
+            "y": 0.359
+        },
+        {
             "name": "Lüttich",
             "level": 1,
-            "x": 0.31,
-            "y": 0.366
+            "x": 0.309,
+            "y": 0.367
         },
         {
             "name": "Boulogne-sur-mer",
@@ -1349,6 +1991,36 @@
             "level": 0,
             "x": 0.57,
             "y": 0.381
+        },
+        {
+            "name": "Toledo",
+            "level": 1,
+            "x": 0.144,
+            "y": 0.551
+        },
+        {
+            "name": "Soria",
+            "level": 0,
+            "x": 0.17,
+            "y": 0.521
+        },
+        {
+            "name": "Segovia",
+            "level": 0,
+            "x": 0.142,
+            "y": 0.531
+        },
+        {
+            "name": "Siguenza",
+            "level": 0,
+            "x": 0.166,
+            "y": 0.529
+        },
+        {
+            "name": "Burgos",
+            "level": 1,
+            "x": 0.146,
+            "y": 0.515
         }
     ],
 	"regions": [
@@ -1565,7 +2237,7 @@
 		{
             "name": "Kastilien",
             "x": 0.14,
-            "y": 0.55
+            "y": 0.52
         },
 		{
             "name": "Granada",
