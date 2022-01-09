@@ -5,15 +5,18 @@
         "listEntry": "Heinrich Raspe",
         "dynasty": "Ludowinger",
         "dateOfBirth": "ca. 1204",
-        "placeOfBirth": "Ort unbekannt",
+        "placeOfBirth": "(Ort unbekannt)",
         "dateOfDeath": "1247",
         "placeOfDeath": "Wartburg",
         "titles": ["Römischer König (1246)", "Landgraf von Thüringen (1241)"],
+        "sources": ["Die Urkunden Heinrich Raspes und Wilhelms von Holland 1246–1252, ed. Dieter Hägermann (MGH DD HRas / Wilh) Hannover 1989.", "Lexikon des Mittelalters (LMA), Lemma: Heinrich Raspe.", "Werner, Matthias (Hrsg.), Heinrich Raspe – Landgraf von Thüringen und römischer König (1227-1247); Frankfurt am Main 2003."],
         "coatOfArms": "2/21/Thuringia",
         "db": "pnd118883690",
         "yearAsOf": 1246,
         "yearUntil": 1247,
-        "countDays": false
+        "countDays": false,
+        "interregnum": true,
+        "author": "Maike Heine"
     },
     {
         "id": "wilhelm-holland",
@@ -21,15 +24,18 @@
         "listEntry": "Wilhelm von Holland",
         "dynasty": "Gerulfinger",
         "dateOfBirth": "1228",
-        "placeOfBirth": "Ort unbekannt",
+        "placeOfBirth": "(Ort unbekannt)",
         "dateOfDeath": "1256",
         "placeOfDeath": "Hoogwoud",
         "titles": ["Römischer König (1247)", "Graf von Holland und Seeland (1240)"],
+        "sources": ["Die Urkunden Heinrich Raspes und Wilhelms von Holland 1246–1252, ed. Dieter Hägermann (MGH DD HRas / Wilh) Hannover 1989.", "Lexikon des Mittelalters (LMA), Lemma: Wilhelm II., Gf. v. Holland."],
         "coatOfArms": "3/39/Holland",
         "db": "sfz75117",
         "yearAsOf": 1247,
         "yearUntil": 1256,
-        "countDays": true
+        "countDays": true,
+        "interregnum": true,
+        "author": "Maike Heine"
     },
     {
         "id": "alfons-kastilien",
@@ -41,11 +47,14 @@
         "dateOfDeath": "1284",
         "placeOfDeath": "Sevilla",
         "titles": ["Römischer König (1257-1275)", "König von Kastilien und León (1252)"],
+        "sources": ["Die Urkunden Alfons' von Kastilien, ed. Ingo Schwab (MGH DD Alf) Wiesbaden 2016.", "Lexikon des Mittelalters (LMA), Lemma: Alfons X. der Weise."],
         "coatOfArms": "f/f3/Ferdinand_III_of_Castile",
         "db": "sfz655",
         "yearAsOf": 1256,
         "yearUntil": 1275,
-        "countDays": false
+        "countDays": false,
+        "interregnum": true,
+        "author": "Maike Heine"
     },
     {
         "id": "richard-cornwall",
@@ -57,11 +66,14 @@
         "dateOfDeath": "1272",
         "placeOfDeath": "Berkhamsted Castle",
         "titles": ["Römischer König (1257)", "Graf von Poitou", "Earl von Cornwall"],
+        "sources": ["Die Urkunden Alfons' von Kastilien, ed. Ingo Schwab (MGH DD Alf) Wiesbaden 2016.", "Lexikon des Mittelalters (LMA), Lemma: Richard v. Cornwall."],
         "coatOfArms": "e/ee/De_Cornwall",
         "db": "sfz74612",
         "yearAsOf": 1257,
         "yearUntil": 1269,
-        "countDays": false
+        "countDays": false,
+        "interregnum": true,
+        "author": "Maike Heine"
     },
     {
         "id": "rudolf-i-hrr",
@@ -69,15 +81,18 @@
         "listEntry": "Rudolf I.",
         "dynasty": "Habsburg",
         "dateOfBirth": "1218",
-        "placeOfBirth": "Ort unbekannt",
+        "placeOfBirth": "(Ort unbekannt)",
         "dateOfDeath": "1291",
         "placeOfDeath": "Speyer",
         "titles": ["Römischer König (1273)", "Graf von Habsburg etc. (ca. 1240)"],
+        "sources": ["Regesta Imperii VI, Die Regesten des Kaiserreichs unter Rudolf I. (1273-1291) Hg. von J. F. Böhmer.", "E. Boshof, Rudolf von Habsburg. 1273-1291; eine Königsherrschaft zwischen Tradition und Wand, Köln 2003.", "A. M. Drabek, Reisen und Reisezeremoniell der römisch-deutschen Herrscher im späten Mittelalter, Wien 1964.", "T. Martin, Die Städtepolitik Rudolfs von Habsburg, Göttingen 1976.", "B. Schneidmüller, König Rudolf I. und der Aufstieg des Hauses Habsburg im Mittelalter, Darmstadt 2019.", "T. Zotz, Rudolf von Habsburg (1273 - 1291) in: Die deutschen Herrscher des Mittelalters.", "Historische Porträts von Heinrich I. bis Maximilian I. (Hg) B. Schneidmüller u. S. Weinfurter, Darmstadt 2004, S. 340-360."],
         "coatOfArms": "a/a1/HRE-Habsburg",
         "db": "sfz74667",
         "yearAsOf": 1273,
         "yearUntil": 1291,
-        "countDays": false
+        "countDays": false,
+        "interregnum": true,
+        "author": "Jana Tenbrock"
     },
     {
         "id": "wenzel-hrr",
@@ -89,11 +104,14 @@
         "dateOfDeath": "1419",
         "placeOfDeath": "Wenzelsburg / Prag",
         "titles": ["Römischer König (1376-1400)", "König von Böhmen (1378)"],
+        "sources": ["Kintzinger, Martin: Wenzel (1376–1400), in „Die Deutschen Herrscher des Mittelalters – historische Portraits von Henrich I. bis Maximilian I. (919–1519)“, Hrsg.: Schneidemüller, Bernd, Wiss. Buchges. Darmstadt, Lizenz des Verl. Beck, München, S. 433–445.", "http://www.regesta-imperii.de/regesten/suche.html", "Lindner, Theodor, 'Wenzel' in: Allgemeine Deutsche Biographie 41 (1896), S. 726-732 [Online-Version]; URL: https://www.deutsche-biographie.de/pnd118631349.html#adbcontent", "Hoensch, Jörg K.: Die Luxemburger – eine spätmittelalterliche Dynastie gesamteuropäischer Bedeutung; 1308–1437, Kohlhammer, Stuttgart, 2000, S. 193–233."],
         "coatOfArms": "e/ed/HRE_Luxembourg_Bohemia",
         "db": "sfz56435",
         "yearAsOf": 1376,
         "yearUntil": 1400,
-        "countDays": true
+        "countDays": true,
+        "interregnum": false,
+        "author": "Christian Hansen"
     },
     {
         "id": "ruprecht-hrr",
@@ -105,11 +123,14 @@
         "dateOfDeath": "1410",
         "placeOfDeath": "Burg Landskron / Oppenheim",
         "titles": ["Römischer König (1400)", "Pfalzgraf bei Rhein (1398)"],
+        "sources": ["Auge, Oliver; Spieß, Karl-Heinz: Ruprecht (1400 – 1410), in „Die Deutschen Herrscher des Mittelalters – historische Portraits von Henrich I. bis Maximilian I. (919–1519)“, Hrsg.: Schneidemüller, Bernd, Wiss. Buchges. Darmstadt, Lizenz des Verl. Beck, München, S. 446–461.", "http://www.regesta-imperii.de/regesten/suche.html", "Auge, Oliver, 'Ruprecht von der Pfalz' in: Neue Deutsche Biographie 22 (2005), S. 283-285 [Online-Version]; URL: https://www.deutsche-biographie.de/pnd118750410.html#ndbcontent", "Jörg Peltzer, Königtum Ruprechts von der Pfalz, publiziert am 30.1.2017; in: Historisches Lexikon Bayerns, URL: <http://www.historisches-lexikon-bayerns.de/Lexikon/Königtum_Ruprechts_ von_der_Pfalz> (7.01.2022)"],
         "coatOfArms": "a/ab/HRE_Rupert_of_Wittelsbach",
         "db": "sfz74680",
         "yearAsOf": 1400,
         "yearUntil": 1410,
-        "countDays": true
+        "countDays": true,
+        "interregnum": false,
+        "author": "Christian Hansen"
     },
 	{
         "id": "sigismund-hrr",
@@ -121,10 +142,13 @@
         "dateOfDeath": "1437",
         "placeOfDeath": "Znaim",
         "titles": ["König (1411) und Kaiser (1433) des Heiligen Römischen Reichs", "König von Ungarn und Kroatien (1387)", "König von Böhmen (1419)", "Markgraf von Brandenburg (1378-1388 & 1411-1415)"],
+        "sources": ["Kintzinger, Martin: Sigmund (1410/11–1437). Mit Jobst von Mähren (1410-1411), in „Die Deutschen Herrscher des Mittelalters – historische Portraits von Henrich I. bis Maximilian I. (919–1519)“, Hrsg.: Schneidemüller, Bernd, Wiss. Buchges. Darmstadt, Lizenz des Verl. Beck, München, S. 462–485.", "http://www.regesta-imperii.de/regesten/suche.html", "Hoensch, Jörg K.: Itinerar König und Kaiser Sigismunds von Luxemburg 1368-1437, Hrsg.: Kees, Thomas, Band 6 von „Studien zu den Luxemburgern und ihrer Zeit“, Fahlbusch, University of California, 1995.", "Hoensch, Jörg K.: Die Luxemburger – eine spätmittelalterliche Dynastie gesamteuropäischer Bedeutung; 1308–1437, Kohlhammer, Stuttgart, 2000, S. 234–306.", "Schlotheuber, Eva, 'Sigismund' in: Neue Deutsche Biographie 24 (2010), S. 358-361 [Online-Version]; URL: https://www.deutsche-biographie.de/pnd118614185.html#ndbcontent"],
         "coatOfArms": "9/9d/HRE_Sigismund",
         "db": "sfz56308",
         "yearAsOf": 1410,
         "yearUntil": 1437,
-        "countDays": true
+        "countDays": true,
+        "interregnum": false,
+        "author": "Christian Hansen"
     }
 ]

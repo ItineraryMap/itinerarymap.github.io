@@ -50,9 +50,17 @@ class DataManager {
                     xmlhttp.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
                             f.waypoints = JSON.parse(this.responseText);
-                            if (f == DATA.figures[0]) {
-                                DATA.setLoadedFigure(DATA.figures[0]);
-                            }
+                            let textRequest = new XMLHttpRequest();
+                            textRequest.onreadystatechange = function() {
+                                if (this.readyState == 4 && this.status == 200) {
+                                    f.text = this.responseText;
+                                    if (f == DATA.figures[0]) {
+                                        DATA.setLoadedFigure(DATA.figures[0]);
+                                    }
+                                }
+                            };
+                            textRequest.open("GET", "resources/texts/" + f.id + ".txt", true);
+                            textRequest.send();
                         }
                     };
                     xmlhttp.open("GET", "resources/waypoints/" + f.id + ".json", true);
